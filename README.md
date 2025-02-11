@@ -102,7 +102,8 @@ The script is fully automated via GitHub Actions. To update or change the workfl
 
 ## Notes
 
-This project is for archival and research purposes only. Use responsibly. It is not affiliated with my employer. 
+This project is for archival and research purposes only. Use responsibly. It is not affiliated with my employer. requests
+beautifulsoup4
 
 ### Next steps and improvements:
 
