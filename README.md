@@ -6,7 +6,7 @@ This repository contains a Python script that scrapes posts from Donald Trump's 
 
 ### Fetching data from Truth Social API
 
-The script (`scraper.py`) fetches posts directly from the Truth Social API using a proxy service (`ScrapeOps`) to bypass Cloudflare protections.
+The script (`scraper.py`) fetches posts directly from the Truth Social API using a proxy service (`ScrapeOps`) to ensure successful requests.
 
 - **Pagination support:** It requests up to 100 new posts in batches of 20.
 - **Media extraction:** Any images or videos in a post are extracted and stored as an array of URLs.
@@ -102,8 +102,7 @@ The script is fully automated via GitHub Actions. To update or change the workfl
 
 ## Notes
 
-This project is for archival and research purposes only. Use responsibly. It is not affiliated with my employer. requests
-beautifulsoup4
+This project is for archival and research purposes only. Use responsibly. It is not affiliated with my employer.
 
 ### Next steps and improvements:
 
