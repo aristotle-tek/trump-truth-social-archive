@@ -134,6 +134,9 @@ def fetch_posts(max_pages=3):
             print(f"Error fetching posts: {e}")
             break
 
+    # Sort posts in descending order by "created_at"
+    all_posts.sort(key=lambda post: post["created_at"], reverse=True)
+
     append_to_json_file(all_posts, OUTPUT_JSON_FILE)  # Save the updated archive in JSON
     append_to_csv_file(all_posts, OUTPUT_CSV_FILE)  # Save the archive in CSV format
     print(f"✅ Scraping complete. {len(new_posts)} new posts added.")
