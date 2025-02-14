@@ -64,7 +64,7 @@ def append_to_csv_file(data, file_path):
         writer.writerow(["id", "created_at", "content", "url", "media"])  # Header row
         
         for post in data:
-            media_urls = "; ".join(post.get("media", []))  # Join multiple media URLs with semicolons
+            media_urls = "; ".join(post.get("media", []))
             writer.writerow([
                 post.get("id"),
                 post.get("created_at"),
@@ -115,6 +115,7 @@ def fetch_posts(max_pages=3):
     existing_posts = load_existing_posts()
     all_posts = list(existing_posts.values())  # Start with existing data
     page_count = 0
+    new_posts = []
 
     while page_count < max_pages:
         url = f"{BASE_URL}?{'&'.join([f'{k}={v}' for k, v in params.items()])}"
@@ -122,8 +123,13 @@ def fetch_posts(max_pages=3):
 
         try:
             response = scrape(url, headers=headers)
+            if not response:  # Ensure response is valid
+                print(f"⚠️ Empty response from {url}. Skipping.")
+                continue
+
             new_posts = extract_posts(response, existing_posts)
             if not new_posts:
+                print("✅ No new posts found. Exiting pagination.")
                 break  # No more new posts
 
             all_posts.extend(new_posts)  # Merge new posts
@@ -131,7 +137,7 @@ def fetch_posts(max_pages=3):
             page_count += 1
 
         except requests.exceptions.RequestException as e:
-            print(f"Error fetching posts: {e}")
+            print(f"❌ Error fetching posts: {e}")
             break
 
     # Sort posts in descending order by "created_at"
@@ -139,7 +145,8 @@ def fetch_posts(max_pages=3):
 
     append_to_json_file(all_posts, OUTPUT_JSON_FILE)  # Save the updated archive in JSON
     append_to_csv_file(all_posts, OUTPUT_CSV_FILE)  # Save the archive in CSV format
-    print(f"✅ Scraping complete. {len(new_posts)} new posts added.")
+
+    print(f"✅ Scraping complete. {len(new_posts) if new_posts else 0} new posts added.")
 
 if __name__ == "__main__":
     fetch_posts(max_pages=5)
