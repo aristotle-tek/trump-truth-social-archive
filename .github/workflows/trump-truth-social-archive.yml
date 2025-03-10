@@ -3,7 +3,7 @@ name: trump-truth-social-archive
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 * * * *' # Every hour at 47 minutes past the hour. 
+    - cron: '47 5-23 * * *' # Runs every hour at :47, from 5 AM to 11 PM Eastern
 
 jobs:
   build:
