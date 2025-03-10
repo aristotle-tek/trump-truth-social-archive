@@ -121,6 +121,10 @@ This project is for archival and research purposes only. Use responsibly. It is 
 
 ### Next steps and improvements:
 
-- Fetch replies and interactions on posts
+- Better flags for original posts vs. retweets
+- Better handling of media-only posts
 - Improve media handling (support for more formats)
 - Implement error logging for better monitoring
+- Better analytics: Keywords, classification, etc. 
+- Consider front-end display or Slack integration to help news teams monitor posts
+- Move to Canada
