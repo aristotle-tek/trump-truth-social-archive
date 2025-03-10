@@ -127,4 +127,3 @@ This project is for archival and research purposes only. Use responsibly. It is 
 - Implement error logging for better monitoring
 - Better analytics: Keywords, classification, etc. 
 - Consider front-end display or Slack integration to help news teams monitor posts
-- Move to Canada
