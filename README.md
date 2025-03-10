@@ -19,33 +19,48 @@ The scraper outputs posts in JSON format with the following structure:
 ```json
 [
   {
-    "id": "113986642361079256",
-    "created_at": "2025-02-11T18:22:11.732Z",
-    "content": "",
-    "url": "https://truthsocial.com/@realDonaldTrump/113986642361079256",
-    "media": ["https://truth-archive.us-iad-1.linodeobjects.com/attachments/12044/463ab1eb1bb9f326.mp4"]
+    "id": "114132050804394743",
+    "created_at": "2025-03-09T10:41:28.605Z",
+    "content": "Will be interviewed by Maria Bartiromo on Sunday Morning Futures at 10:00amET, enjoy! <span class=\"h-card\"><a href=\"https://truthsocial.com/@FoxNews\" class=\"u-url mention\">@<span>FoxNews</span></a></span>",
+    "url": "https://truthsocial.com/@realDonaldTrump/114132050804394743",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/114/132/050/631/878/172/original/f0e7d14a580b0bc6.mp4"
+    ],
+    "replies_count": 925,
+    "reblogs_count": 2938,
+    "favourites_count": 13166
   },
   {
-    "id": "113986285138546896",
-    "created_at": "2025-02-11T16:51:20.947Z",
-    "content": "I am pleased to announce that Terry Cole will be the next Drug Enforcement Administration (DEA) administrator...",
-    "url": "https://truthsocial.com/@realDonaldTrump/113986285138546896",
-    "media": []
-  }
+    "id": "114130744626893259",
+    "created_at": "2025-03-09T05:09:17.893Z",
+    "content": "",
+    "url": "https://truthsocial.com/@realDonaldTrump/114130744626893259",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/114/130/744/449/958/273/original/56b8a2c4e789ede9.jpg"
+    ],
+    "replies_count": 2451,
+    "reblogs_count": 3833,
+    "favourites_count": 16848
+  },
 ]
 ```
 
-### Fields explained
+### Field descriptions
 
 - **`id`** → The unique identifier for the post
 - **`created_at`** → Timestamp when the post was made
 - **`content`** → The text content of the post
 - **`url`** → Direct link to the post on Truth Social
 - **`media`** → An array of image and video URLs if the post contains media
+- **`replies_count`** → Number of replies to Trump post
+- **`reblogs_count`** → Number of re-posts, or re-truths, to Trump post
+- **`favourites_count`** → Number of favorites to Trump post
 
 ## GitHub Actions automation
 
-The scraper runs every hour at 47 minutes past using a GitHub Actions workflow and environment secrets for AWS and ScrapeOps. In addition to fetching the data, the workflow also copies it to a designated S3 bucket.
+The scraper runs every hour at 47 minutes past using a GitHub Actions workflow and environment secrets for AWS and ScrapeOps. In addition to fetching the data, the workflow also copies it to a designated S3 bucket. 
+
+I'm considering strategies now for periodically rehydrating the archive with updated engeagement analytics (re-posts, replies, etc.) so that we capture changes overtime for popular posts.
 
 ### Workflow steps
 

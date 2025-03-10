@@ -57,11 +57,11 @@ def append_to_json_file(data, file_path):
 
 def append_to_csv_file(data, file_path):
     """
-    Saves the dataset to a CSV file.
+    Saves the dataset to a CSV file, including engagement metrics.
     """
     with open(file_path, 'w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
-        writer.writerow(["id", "created_at", "content", "url", "media"])  # Header row
+        writer.writerow(["id", "created_at", "content", "url", "media", "replies_count", "reblogs_count", "favourites_count"])  # Updated header row
         
         for post in data:
             media_urls = "; ".join(post.get("media", []))
@@ -70,12 +70,15 @@ def append_to_csv_file(data, file_path):
                 post.get("created_at"),
                 post.get("content", ""),
                 post.get("url"),
-                media_urls
+                media_urls,
+                post.get("replies_count", 0),
+                post.get("reblogs_count", 0),
+                post.get("favourites_count", 0)
             ])
 
 def extract_posts(json_response, existing_posts):
     """
-    Extracts relevant data from the JSON response.
+    Extracts relevant data from the JSON response, including engagement metrics.
     """
     extracted_data = []
     
@@ -91,7 +94,10 @@ def extract_posts(json_response, existing_posts):
             "created_at": post.get("created_at"),
             "content": post.get("content", "").replace("<p>", "").replace("</p>", "").strip(),
             "url": post.get("url"),
-            "media": media_urls  # Store media in an array
+            "media": media_urls,  # Store media in an array
+            "replies_count": post.get("replies_count", 0),  # Number of replies
+            "reblogs_count": post.get("reblogs_count", 0),  # Number of reblogs (shares)
+            "favourites_count": post.get("favourites_count", 0)  # Number of likes
         })
 
     return extracted_data
