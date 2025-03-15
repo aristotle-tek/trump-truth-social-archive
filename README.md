@@ -58,7 +58,7 @@ The scraper outputs posts in JSON format with the following structure:
 
 ## GitHub Actions automation
 
-The scraper runs every hour at 47 minutes past using a GitHub Actions workflow and environment secrets for AWS and ScrapeOps. In addition to fetching the data, the workflow also copies it to a designated S3 bucket. 
+The scraper runs every four hours at 47 minutes past. It's using a GitHub Actions workflow and environment secrets for AWS and ScrapeOps. In addition to fetching the data, the workflow also copies it to a designated S3 bucket. 
 
 *Note: I'm considering strategies now for periodically rehydrating the archive with updated engeagement analytics (re-posts, replies, etc.) so that we capture changes over time for popular posts.*
 
