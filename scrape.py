@@ -3,6 +3,7 @@ import json
 import os
 import time
 import csv
+import re
 
 # Load credentials from environment variables
 SCRAPEOPS_API_KEY = os.getenv("SCRAPE_PROXY_KEY")
@@ -26,7 +27,6 @@ def scrape(url, headers=None):
     proxy_params = {
         'api_key': SCRAPEOPS_API_KEY,
         'url': url, 
-        'render_js': True,
         'bypass': 'cloudflare_level_1'
     }
 
@@ -61,8 +61,7 @@ def append_to_csv_file(data, file_path):
     """
     with open(file_path, 'w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
-        writer.writerow(["id", "created_at", "content", "url", "media", "replies_count", "reblogs_count", "favourites_count"])  # Updated header row
-        
+        writer.writerow(["id", "created_at", "content", "url", "media", "replies_count", "reblogs_count", "favourites_count"])
         for post in data:
             media_urls = "; ".join(post.get("media", []))
             writer.writerow([
@@ -76,9 +75,27 @@ def append_to_csv_file(data, file_path):
                 post.get("favourites_count", 0)
             ])
 
+def clean_html(raw_html):
+    """
+    Removes HTML tags from a string.
+    This strips unwanted markup like anchor tags.
+    """
+    return re.sub('<.*?>', '', raw_html)
+
+def fix_unicode(text):
+    """
+    Ensures that escaped Unicode sequences (e.g., \u2026, \u2014)
+    are converted to their proper characters.
+    """
+    try:
+        return text.encode('utf-8').decode('unicode_escape')
+    except Exception:
+        return text
+
 def extract_posts(json_response, existing_posts):
     """
     Extracts relevant data from the JSON response, including engagement metrics.
+    Applies clean_html and fix_unicode to the post content.
     """
     extracted_data = []
     
@@ -92,7 +109,7 @@ def extract_posts(json_response, existing_posts):
         extracted_data.append({
             "id": post_id,  # Needed for pagination
             "created_at": post.get("created_at"),
-            "content": post.get("content", "").replace("<p>", "").replace("</p>", "").strip(),
+            "content": fix_unicode(clean_html(post.get("content", ""))).strip(),
             "url": post.get("url"),
             "media": media_urls,  # Store media in an array
             "replies_count": post.get("replies_count", 0),  # Number of replies
@@ -155,4 +172,4 @@ def fetch_posts(max_pages=3):
     print(f"✅ Scraping complete. {len(new_posts) if new_posts else 0} new posts added.")
 
 if __name__ == "__main__":
-    fetch_posts(max_pages=5)
+    fetch_posts(max_pages=3)
