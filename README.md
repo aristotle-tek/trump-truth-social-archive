@@ -2,7 +2,7 @@
 
 This repository contains a Python script that scrapes posts from Donald Trump's Truth Social account and stores them in JSON and CSV formats. The scraper runs hourly via a GitHub Actions workflow and updates an S3 archive to keep a historical record of the posts. 
 
-**This workflow was disabled on Oct. 26, 2025, and the data outputs will no longer be updated.**
+**This workflow was disabled on Oct. 26, 2025 in the original repo; I have re-started it (without the AWS bucket) in this fork on Oct 31, 2025. There is currently therefore a gap.**
 
 ## How it works
 
