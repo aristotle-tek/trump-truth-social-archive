@@ -1,5 +1,41 @@
 [
   {
+    "id": "115648195823145624",
+    "created_at": "2025-12-02T04:57:05.525Z",
+    "content": "",
+    "url": "https://truthsocial.com/@realDonaldTrump/115648195823145624",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/195/226/135/412/original/2a9f000753a19d28.png"
+    ],
+    "replies_count": 705,
+    "reblogs_count": 1452,
+    "favourites_count": 5733
+  },
+  {
+    "id": "115648186389844514",
+    "created_at": "2025-12-02T04:54:41.584Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115648184924709829",
+    "url": "https://truthsocial.com/@realDonaldTrump/115648186389844514",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/186/212/638/806/original/0029f47f4aa02df0.png"
+    ],
+    "replies_count": 467,
+    "reblogs_count": 2237,
+    "favourites_count": 6726
+  },
+  {
+    "id": "115648184924709829",
+    "created_at": "2025-12-02T04:54:19.230Z",
+    "content": "",
+    "url": "https://truthsocial.com/@realDonaldTrump/115648184924709829",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/184/279/735/256/original/ca42a917bc5792eb.mp4"
+    ],
+    "replies_count": 160,
+    "reblogs_count": 1111,
+    "favourites_count": 4235
+  },
+  {
     "id": "115648159014933946",
     "created_at": "2025-12-02T04:47:43.875Z",
     "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115648158176091816",
@@ -7,9 +43,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/158/853/093/509/original/341f26fcf1dcc020.png"
     ],
-    "replies_count": 106,
-    "reblogs_count": 226,
-    "favourites_count": 694
+    "replies_count": 357,
+    "reblogs_count": 1667,
+    "favourites_count": 5622
   },
   {
     "id": "115648158176091816",
@@ -19,9 +55,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/157/940/005/478/original/351b26ef303d61cc.mp4"
     ],
-    "replies_count": 43,
-    "reblogs_count": 146,
-    "favourites_count": 526
+    "replies_count": 148,
+    "reblogs_count": 895,
+    "favourites_count": 3860
   },
   {
     "id": "115648157316146446",
@@ -31,9 +67,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/157/204/476/166/original/37ae55f6fe6ea2a3.png"
     ],
-    "replies_count": 50,
-    "reblogs_count": 239,
-    "favourites_count": 524
+    "replies_count": 368,
+    "reblogs_count": 1964,
+    "favourites_count": 4517
   },
   {
     "id": "115648156487924297",
@@ -43,9 +79,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/156/117/303/881/original/53450af23ab14216.mp4"
     ],
-    "replies_count": 43,
-    "reblogs_count": 167,
-    "favourites_count": 405
+    "replies_count": 209,
+    "reblogs_count": 1221,
+    "favourites_count": 3494
   },
   {
     "id": "115648155609970235",
@@ -55,9 +91,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/155/440/115/707/original/7d9728d7debf9fa6.png"
     ],
-    "replies_count": 27,
-    "reblogs_count": 175,
-    "favourites_count": 424
+    "replies_count": 194,
+    "reblogs_count": 1434,
+    "favourites_count": 4008
   },
   {
     "id": "115648154701744820",
@@ -67,9 +103,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/154/217/022/011/original/17a32f2052f9fce6.mp4"
     ],
-    "replies_count": 18,
-    "reblogs_count": 121,
-    "favourites_count": 340
+    "replies_count": 74,
+    "reblogs_count": 724,
+    "favourites_count": 2746
   },
   {
     "id": "115648153655795098",
@@ -79,9 +115,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/153/526/892/566/original/43d7363fabbc5966.png"
     ],
-    "replies_count": 32,
-    "reblogs_count": 166,
-    "favourites_count": 389
+    "replies_count": 207,
+    "reblogs_count": 1404,
+    "favourites_count": 3576
   },
   {
     "id": "115648152792456081",
@@ -91,9 +127,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/152/323/101/505/original/e5ab955b982aeaf7.mp4"
     ],
-    "replies_count": 15,
-    "reblogs_count": 110,
-    "favourites_count": 283
+    "replies_count": 81,
+    "reblogs_count": 721,
+    "favourites_count": 2393
   },
   {
     "id": "115648142889546828",
@@ -103,9 +139,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/142/755/257/564/original/f4aad29d1ccf8763.png"
     ],
-    "replies_count": 54,
-    "reblogs_count": 245,
-    "favourites_count": 609
+    "replies_count": 162,
+    "reblogs_count": 1222,
+    "favourites_count": 3408
   },
   {
     "id": "115648142108801281",
@@ -115,9 +151,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/140/878/045/379/original/d37ebe3065aeebd6.mp4"
     ],
-    "replies_count": 18,
-    "reblogs_count": 167,
-    "favourites_count": 431
+    "replies_count": 57,
+    "reblogs_count": 722,
+    "favourites_count": 2412
   },
   {
     "id": "115648140189076090",
@@ -127,9 +163,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/140/094/700/973/original/25ae679a8dbda772.png"
     ],
-    "replies_count": 40,
-    "reblogs_count": 164,
-    "favourites_count": 475
+    "replies_count": 107,
+    "reblogs_count": 933,
+    "favourites_count": 2767
   },
   {
     "id": "115648139282080059",
@@ -139,9 +175,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/138/841/410/096/original/3294b4d46cfba3f3.mp4"
     ],
-    "replies_count": 24,
-    "reblogs_count": 147,
-    "favourites_count": 413
+    "replies_count": 54,
+    "reblogs_count": 599,
+    "favourites_count": 2131
   },
   {
     "id": "115648138156082602",
@@ -151,9 +187,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/137/997/082/552/original/1b18494f5b66a496.png"
     ],
-    "replies_count": 64,
-    "reblogs_count": 221,
-    "favourites_count": 518
+    "replies_count": 192,
+    "reblogs_count": 1201,
+    "favourites_count": 3004
   },
   {
     "id": "115648137117120013",
@@ -163,9 +199,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/136/069/312/394/original/409ea3feb0ccc4e0.mp4"
     ],
-    "replies_count": 39,
-    "reblogs_count": 158,
-    "favourites_count": 419
+    "replies_count": 71,
+    "reblogs_count": 647,
+    "favourites_count": 2123
   },
   {
     "id": "115648135395965442",
@@ -175,9 +211,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/135/289/579/361/original/f6132ce88ff91315.png"
     ],
-    "replies_count": 49,
-    "reblogs_count": 211,
-    "favourites_count": 576
+    "replies_count": 85,
+    "reblogs_count": 1025,
+    "favourites_count": 3103
   },
   {
     "id": "115648133742539585",
@@ -187,9 +223,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/133/079/535/383/original/4cc9d1f1859c5b66.mp4"
     ],
-    "replies_count": 29,
-    "reblogs_count": 165,
-    "favourites_count": 510
+    "replies_count": 58,
+    "reblogs_count": 694,
+    "favourites_count": 2401
   },
   {
     "id": "115648132205016230",
@@ -199,9 +235,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/132/083/529/124/original/fb84cd22137dd8a3.png"
     ],
-    "replies_count": 56,
-    "reblogs_count": 237,
-    "favourites_count": 618
+    "replies_count": 154,
+    "reblogs_count": 1038,
+    "favourites_count": 3283
   },
   {
     "id": "115648131474014632",
@@ -211,9 +247,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/130/262/185/275/original/6393750b6e446483.mp4"
     ],
-    "replies_count": 32,
-    "reblogs_count": 167,
-    "favourites_count": 489
+    "replies_count": 73,
+    "reblogs_count": 679,
+    "favourites_count": 2443
   },
   {
     "id": "115648129642203325",
@@ -223,9 +259,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/129/467/980/125/original/fbbd41639f1a8f13.png"
     ],
-    "replies_count": 41,
-    "reblogs_count": 228,
-    "favourites_count": 521
+    "replies_count": 93,
+    "reblogs_count": 1012,
+    "favourites_count": 2619
   },
   {
     "id": "115648128652894333",
@@ -235,9 +271,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/128/488/486/671/original/ccf0b5f3b04ae35f.mp4"
     ],
-    "replies_count": 26,
-    "reblogs_count": 170,
-    "favourites_count": 435
+    "replies_count": 53,
+    "reblogs_count": 622,
+    "favourites_count": 2039
   },
   {
     "id": "115648127880693319",
@@ -247,9 +283,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/127/519/472/796/original/ead85ed473e940d5.mp4"
     ],
-    "replies_count": 46,
-    "reblogs_count": 220,
-    "favourites_count": 595
+    "replies_count": 113,
+    "reblogs_count": 910,
+    "favourites_count": 2826
   },
   {
     "id": "115648126928289328",
@@ -259,9 +295,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/126/811/864/957/original/d9d3cae450f2f55c.png"
     ],
-    "replies_count": 42,
-    "reblogs_count": 213,
-    "favourites_count": 563
+    "replies_count": 108,
+    "reblogs_count": 884,
+    "favourites_count": 2677
   },
   {
     "id": "115648125880185739",
@@ -271,9 +307,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/125/551/046/723/original/e3e63a2db975b2dc.mp4"
     ],
-    "replies_count": 42,
-    "reblogs_count": 170,
-    "favourites_count": 486
+    "replies_count": 82,
+    "reblogs_count": 626,
+    "favourites_count": 2168
   },
   {
     "id": "115648124903840099",
@@ -283,9 +319,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/124/741/596/930/original/98f89b21fd2e713c.png"
     ],
-    "replies_count": 43,
-    "reblogs_count": 198,
-    "favourites_count": 544
+    "replies_count": 79,
+    "reblogs_count": 826,
+    "favourites_count": 2541
   },
   {
     "id": "115648123960430276",
@@ -295,9 +331,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/123/063/031/680/original/85aa2fcd99ad76f3.mp4"
     ],
-    "replies_count": 30,
-    "reblogs_count": 169,
-    "favourites_count": 448
+    "replies_count": 52,
+    "reblogs_count": 570,
+    "favourites_count": 1944
   },
   {
     "id": "115648122469164860",
@@ -307,9 +343,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/122/270/770/312/original/b080bde6343237ef.png"
     ],
-    "replies_count": 51,
-    "reblogs_count": 245,
-    "favourites_count": 581
+    "replies_count": 111,
+    "reblogs_count": 1006,
+    "favourites_count": 2598
   },
   {
     "id": "115648121399463020",
@@ -319,9 +355,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/120/744/919/438/original/4a69d1ad215b2357.mp4"
     ],
-    "replies_count": 36,
-    "reblogs_count": 179,
-    "favourites_count": 465
+    "replies_count": 50,
+    "reblogs_count": 591,
+    "favourites_count": 1922
   },
   {
     "id": "115648120145648703",
@@ -331,9 +367,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/120/003/974/547/original/247ffe77b3ae31ce.png"
     ],
-    "replies_count": 48,
-    "reblogs_count": 218,
-    "favourites_count": 525
+    "replies_count": 117,
+    "reblogs_count": 881,
+    "favourites_count": 2366
   },
   {
     "id": "115648119192700139",
@@ -343,9 +379,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/118/730/287/019/original/067e095c3da14ed9.mp4"
     ],
-    "replies_count": 34,
-    "reblogs_count": 180,
-    "favourites_count": 469
+    "replies_count": 60,
+    "reblogs_count": 584,
+    "favourites_count": 1882
   },
   {
     "id": "115648118146603820",
@@ -355,9 +391,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/117/977/670/152/original/a9f39bcfe50c11c1.png"
     ],
-    "replies_count": 39,
-    "reblogs_count": 202,
-    "favourites_count": 513
+    "replies_count": 107,
+    "reblogs_count": 865,
+    "favourites_count": 2327
   },
   {
     "id": "115648117167403251",
@@ -367,9 +403,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/116/431/369/520/original/07c42c0509abff60.mp4"
     ],
-    "replies_count": 30,
-    "reblogs_count": 156,
-    "favourites_count": 443
+    "replies_count": 53,
+    "reblogs_count": 544,
+    "favourites_count": 1833
   },
   {
     "id": "115648115908878348",
@@ -379,9 +415,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/115/718/676/250/original/737080167f3d56e0.png"
     ],
-    "replies_count": 35,
-    "reblogs_count": 236,
-    "favourites_count": 560
+    "replies_count": 77,
+    "reblogs_count": 996,
+    "favourites_count": 2446
   },
   {
     "id": "115648114719833712",
@@ -391,9 +427,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/114/055/946/214/original/36f6fef4054b9509.mp4"
     ],
-    "replies_count": 31,
-    "reblogs_count": 158,
-    "favourites_count": 487
+    "replies_count": 52,
+    "reblogs_count": 543,
+    "favourites_count": 1817
   },
   {
     "id": "115648113544791631",
@@ -403,9 +439,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/113/421/226/858/original/2312cef6cc039e76.png"
     ],
-    "replies_count": 44,
-    "reblogs_count": 223,
-    "favourites_count": 525
+    "replies_count": 93,
+    "reblogs_count": 844,
+    "favourites_count": 2087
   },
   {
     "id": "115648112015143655",
@@ -415,9 +451,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/110/980/749/661/original/b7abc4a2b75221a4.mp4"
     ],
-    "replies_count": 30,
-    "reblogs_count": 171,
-    "favourites_count": 468
+    "replies_count": 48,
+    "reblogs_count": 529,
+    "favourites_count": 1670
   },
   {
     "id": "115648110425598478",
@@ -427,9 +463,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/110/267/744/366/original/b4bcfe18ae0190bb.png"
     ],
-    "replies_count": 58,
-    "reblogs_count": 218,
-    "favourites_count": 653
+    "replies_count": 116,
+    "reblogs_count": 758,
+    "favourites_count": 2433
   },
   {
     "id": "115648109315228576",
@@ -439,9 +475,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/109/032/054/786/original/027efc0a027df604.mp4"
     ],
-    "replies_count": 57,
-    "reblogs_count": 173,
-    "favourites_count": 610
+    "replies_count": 107,
+    "reblogs_count": 533,
+    "favourites_count": 2054
   },
   {
     "id": "115648108420703157",
@@ -451,9 +487,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/108/311/055/711/original/2b1f9d99e4b432fd.png"
     ],
-    "replies_count": 50,
-    "reblogs_count": 235,
-    "favourites_count": 568
+    "replies_count": 99,
+    "reblogs_count": 843,
+    "favourites_count": 2101
   },
   {
     "id": "115648107425170819",
@@ -463,9 +499,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/107/240/551/878/original/d51f1b2e66ddab2c.mp4"
     ],
-    "replies_count": 22,
-    "reblogs_count": 171,
-    "favourites_count": 442
+    "replies_count": 49,
+    "reblogs_count": 536,
+    "favourites_count": 1636
   },
   {
     "id": "115648106726927979",
@@ -475,9 +511,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/106/596/507/080/original/2769fa1172813669.png"
     ],
-    "replies_count": 30,
-    "reblogs_count": 181,
-    "favourites_count": 490
+    "replies_count": 64,
+    "reblogs_count": 676,
+    "favourites_count": 1934
   },
   {
     "id": "115648105729846510",
@@ -487,9 +523,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/104/952/291/202/original/e5c8e89eb05d58d1.mp4"
     ],
-    "replies_count": 31,
-    "reblogs_count": 162,
-    "favourites_count": 467
+    "replies_count": 50,
+    "reblogs_count": 488,
+    "favourites_count": 1629
   },
   {
     "id": "115648104204080544",
@@ -499,9 +535,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/104/003/477/514/original/201114c9f8a82e72.png"
     ],
-    "replies_count": 31,
-    "reblogs_count": 239,
-    "favourites_count": 588
+    "replies_count": 66,
+    "reblogs_count": 806,
+    "favourites_count": 2099
   },
   {
     "id": "115648103175864176",
@@ -511,9 +547,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/102/995/753/126/original/bf85417180702e48.mp4"
     ],
-    "replies_count": 45,
-    "reblogs_count": 184,
-    "favourites_count": 507
+    "replies_count": 61,
+    "reblogs_count": 527,
+    "favourites_count": 1677
   },
   {
     "id": "115648102411803830",
@@ -523,9 +559,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/102/259/166/693/original/5d038f0719ad78da.png"
     ],
-    "replies_count": 31,
-    "reblogs_count": 190,
-    "favourites_count": 560
+    "replies_count": 65,
+    "reblogs_count": 684,
+    "favourites_count": 2085
   },
   {
     "id": "115648101419067285",
@@ -535,9 +571,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/100/498/812/873/original/1c6ed7942a5e5487.mp4"
     ],
-    "replies_count": 18,
-    "reblogs_count": 149,
-    "favourites_count": 467
+    "replies_count": 41,
+    "reblogs_count": 472,
+    "favourites_count": 1621
   },
   {
     "id": "115648099775019268",
@@ -547,9 +583,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/099/675/396/286/original/81777042cfcae2bb.png"
     ],
-    "replies_count": 40,
-    "reblogs_count": 209,
-    "favourites_count": 574
+    "replies_count": 92,
+    "reblogs_count": 705,
+    "favourites_count": 2037
   },
   {
     "id": "115648098795263989",
@@ -559,9 +595,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/097/209/451/313/original/e2ce9af7ae3e9a85.mp4"
     ],
-    "replies_count": 36,
-    "reblogs_count": 176,
-    "favourites_count": 498
+    "replies_count": 58,
+    "reblogs_count": 535,
+    "favourites_count": 1694
   },
   {
     "id": "115648080360067480",
@@ -571,9 +607,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/080/122/740/883/original/fe103aedc253ef93.png"
     ],
-    "replies_count": 169,
-    "reblogs_count": 423,
-    "favourites_count": 1088
+    "replies_count": 271,
+    "reblogs_count": 968,
+    "favourites_count": 2631
   },
   {
     "id": "115648079363952163",
@@ -583,9 +619,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/078/501/419/412/original/6250e6b928e6fc54.mp4"
     ],
-    "replies_count": 97,
-    "reblogs_count": 286,
-    "favourites_count": 890
+    "replies_count": 150,
+    "reblogs_count": 627,
+    "favourites_count": 2079
   },
   {
     "id": "115648077838076357",
@@ -595,9 +631,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/077/674/708/652/original/886ee3439e66cfa2.png"
     ],
-    "replies_count": 42,
-    "reblogs_count": 290,
-    "favourites_count": 798
+    "replies_count": 72,
+    "reblogs_count": 750,
+    "favourites_count": 2114
   },
   {
     "id": "115648076833268097",
@@ -607,9 +643,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/076/363/199/792/original/31a31b35b0c1e69c.mp4"
     ],
-    "replies_count": 31,
-    "reblogs_count": 206,
-    "favourites_count": 629
+    "replies_count": 38,
+    "reblogs_count": 491,
+    "favourites_count": 1643
   },
   {
     "id": "115648075640735417",
@@ -619,9 +655,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/075/497/742/064/original/fa00d2cf33073881.png"
     ],
-    "replies_count": 48,
-    "reblogs_count": 293,
-    "favourites_count": 806
+    "replies_count": 76,
+    "reblogs_count": 717,
+    "favourites_count": 2107
   },
   {
     "id": "115648074740441095",
@@ -631,9 +667,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/074/246/504/416/original/0fba6c7ccbdbc614.mp4"
     ],
-    "replies_count": 23,
-    "reblogs_count": 204,
-    "favourites_count": 640
+    "replies_count": 39,
+    "reblogs_count": 489,
+    "favourites_count": 1652
   },
   {
     "id": "115648073600168671",
@@ -643,9 +679,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/073/476/398/552/original/35b27a4b12f56fec.png"
     ],
-    "replies_count": 49,
-    "reblogs_count": 316,
-    "favourites_count": 792
+    "replies_count": 91,
+    "reblogs_count": 816,
+    "favourites_count": 2140
   },
   {
     "id": "115648072519157640",
@@ -655,9 +691,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/071/659/578/969/original/ce597f5b6e90ce83.mp4"
     ],
-    "replies_count": 42,
-    "reblogs_count": 240,
-    "favourites_count": 684
+    "replies_count": 58,
+    "reblogs_count": 554,
+    "favourites_count": 1728
   },
   {
     "id": "115648070934119159",
@@ -667,9 +703,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/070/736/836/403/original/5289ac7e057842db.png"
     ],
-    "replies_count": 32,
-    "reblogs_count": 301,
-    "favourites_count": 732
+    "replies_count": 47,
+    "reblogs_count": 745,
+    "favourites_count": 1930
   },
   {
     "id": "115648069714592630",
@@ -679,45 +715,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/068/490/253/493/original/05da654566a82937.mp4"
     ],
-    "replies_count": 24,
-    "reblogs_count": 215,
-    "favourites_count": 608
-  },
-  {
-    "id": "115648067880577117",
-    "created_at": "2025-12-02T04:24:33.279Z",
-    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115648066869918849",
-    "url": "https://truthsocial.com/@realDonaldTrump/115648067880577117",
-    "media": [
-      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/067/632/675/123/original/31579e362504be6c.png"
-    ],
-    "replies_count": 52,
-    "reblogs_count": 346,
-    "favourites_count": 786
-  },
-  {
-    "id": "115648066869918849",
-    "created_at": "2025-12-02T04:24:17.854Z",
-    "content": "",
-    "url": "https://truthsocial.com/@realDonaldTrump/115648066869918849",
-    "media": [
-      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/063/783/932/080/original/7eaa3121bc3d0f92.mp4"
-    ],
-    "replies_count": 46,
-    "reblogs_count": 236,
-    "favourites_count": 655
-  },
-  {
-    "id": "115648063093144056",
-    "created_at": "2025-12-02T04:23:20.224Z",
-    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115648062173364675",
-    "url": "https://truthsocial.com/@realDonaldTrump/115648063093144056",
-    "media": [
-      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/648/062/962/800/708/original/6eff19f762b54667.png"
-    ],
-    "replies_count": 62,
-    "reblogs_count": 290,
-    "favourites_count": 959
+    "replies_count": 33,
+    "reblogs_count": 471,
+    "favourites_count": 1543
   },
   {
     "id": "115437112529618205",
