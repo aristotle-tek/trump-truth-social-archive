@@ -1,641 +1,723 @@
 [
   {
-    "id": "115778423393885295",
-    "created_at": "2025-12-25T04:55:40.561Z",
-    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778421725219299",
-    "url": "https://truthsocial.com/@realDonaldTrump/115778423393885295",
+    "id": "115778736992201236",
+    "created_at": "2025-12-25T06:15:25.694Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778736168364585",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778736992201236",
     "media": [
-      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/423/112/765/744/original/74242b24f70a64ce.jpg"
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/736/843/859/542/original/7462cb7c8a8a7627.png"
     ],
-    "replies_count": 14,
-    "reblogs_count": 75,
-    "favourites_count": 165
+    "replies_count": 280,
+    "reblogs_count": 722,
+    "favourites_count": 2383
   },
   {
-    "id": "115778421725219299",
-    "created_at": "2025-12-25T04:55:15.101Z",
+    "id": "115778736168364585",
+    "created_at": "2025-12-25T06:15:13.120Z",
     "content": "",
-    "url": "https://truthsocial.com/@realDonaldTrump/115778421725219299",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778736168364585",
     "media": [
-      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/421/318/243/857/original/2376c814a84710d9.mp4"
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/735/895/025/484/original/aa2d6deb8c63c93b.mp4"
     ],
-    "replies_count": 26,
-    "reblogs_count": 84,
-    "favourites_count": 205
+    "replies_count": 108,
+    "reblogs_count": 461,
+    "favourites_count": 1624
   },
   {
-    "id": "115778416953473472",
-    "created_at": "2025-12-25T04:54:02.288Z",
-    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778415872652953",
-    "url": "https://truthsocial.com/@realDonaldTrump/115778416953473472",
+    "id": "115778735313543517",
+    "created_at": "2025-12-25T06:15:00.080Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778734057730784",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778735313543517",
     "media": [
-      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/416/687/693/115/original/d19bc9c03f2eaf80.jpg"
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/735/091/817/572/original/719a5d356b67967d.png"
+    ],
+    "replies_count": 197,
+    "reblogs_count": 759,
+    "favourites_count": 2068
+  },
+  {
+    "id": "115778734057730784",
+    "created_at": "2025-12-25T06:14:40.918Z",
+    "content": "",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778734057730784",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/733/761/931/859/original/7fdbf10983d65c27.mp4"
+    ],
+    "replies_count": 103,
+    "reblogs_count": 499,
+    "favourites_count": 1527
+  },
+  {
+    "id": "115778730997422426",
+    "created_at": "2025-12-25T06:13:54.221Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778730021385271",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778730997422426",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/730/809/178/613/original/e2d92177bcd0b6cf.png"
+    ],
+    "replies_count": 92,
+    "reblogs_count": 641,
+    "favourites_count": 1951
+  },
+  {
+    "id": "115778730021385271",
+    "created_at": "2025-12-25T06:13:39.325Z",
+    "content": "",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778730021385271",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/729/734/036/190/original/1cbe82227bc08e39.mp4"
+    ],
+    "replies_count": 80,
+    "reblogs_count": 397,
+    "favourites_count": 1391
+  },
+  {
+    "id": "115778728419281380",
+    "created_at": "2025-12-25T06:13:14.883Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778727549815214",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778728419281380",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/728/280/355/417/original/a752e2200cf065d0.png"
+    ],
+    "replies_count": 266,
+    "reblogs_count": 672,
+    "favourites_count": 1809
+  },
+  {
+    "id": "115778727549815214",
+    "created_at": "2025-12-25T06:13:01.611Z",
+    "content": "",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778727549815214",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/727/364/475/290/original/fce2315380cc172b.mp4"
+    ],
+    "replies_count": 66,
+    "reblogs_count": 415,
+    "favourites_count": 1373
+  },
+  {
+    "id": "115778726793238326",
+    "created_at": "2025-12-25T06:12:50.070Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778725810620003",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778726793238326",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/726/615/955/264/original/08f56c0fb4f9f611.png"
+    ],
+    "replies_count": 123,
+    "reblogs_count": 643,
+    "favourites_count": 1887
+  },
+  {
+    "id": "115778725810620003",
+    "created_at": "2025-12-25T06:12:35.073Z",
+    "content": "",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778725810620003",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/725/642/618/514/original/5d984193a217f0ec.mp4"
+    ],
+    "replies_count": 59,
+    "reblogs_count": 385,
+    "favourites_count": 1334
+  },
+  {
+    "id": "115778725132924670",
+    "created_at": "2025-12-25T06:12:24.737Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778722819007127",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778725132924670",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/724/994/332/965/original/5294663cf8f78d7e.png"
+    ],
+    "replies_count": 122,
+    "reblogs_count": 752,
+    "favourites_count": 1721
+  },
+  {
+    "id": "115778722819007127",
+    "created_at": "2025-12-25T06:11:49.428Z",
+    "content": "",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778722819007127",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/722/206/536/758/original/5b20b3e71f445dae.mp4"
+    ],
+    "replies_count": 55,
+    "reblogs_count": 437,
+    "favourites_count": 1292
+  },
+  {
+    "id": "115778721644001527",
+    "created_at": "2025-12-25T06:11:31.501Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778720750810683",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778721644001527",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/721/519/610/490/original/9dd271053974e7ab.png"
+    ],
+    "replies_count": 69,
+    "reblogs_count": 551,
+    "favourites_count": 1516
+  },
+  {
+    "id": "115778720750810683",
+    "created_at": "2025-12-25T06:11:17.870Z",
+    "content": "",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778720750810683",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/720/178/201/409/original/cdcf72deaeb6f37c.mp4"
+    ],
+    "replies_count": 63,
+    "reblogs_count": 374,
+    "favourites_count": 1177
+  },
+  {
+    "id": "115778719436380697",
+    "created_at": "2025-12-25T06:10:57.814Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778718352842271",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778719436380697",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/719/260/149/950/original/946adbc57145980b.png"
+    ],
+    "replies_count": 74,
+    "reblogs_count": 568,
+    "favourites_count": 1434
+  },
+  {
+    "id": "115778718352842271",
+    "created_at": "2025-12-25T06:10:41.279Z",
+    "content": "",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778718352842271",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/717/926/685/687/original/c9de141a969ee7ff.mp4"
     ],
     "replies_count": 30,
-    "reblogs_count": 75,
-    "favourites_count": 250
+    "reblogs_count": 315,
+    "favourites_count": 1065
   },
   {
-    "id": "115778415872652953",
-    "created_at": "2025-12-25T04:53:45.795Z",
-    "content": "",
-    "url": "https://truthsocial.com/@realDonaldTrump/115778415872652953",
+    "id": "115778717150531954",
+    "created_at": "2025-12-25T06:10:22.934Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778715628906112",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778717150531954",
     "media": [
-      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/415/048/344/472/original/4751b4eec4fddcbd.mp4"
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/716/998/431/361/original/118c94c4b0d95f05.png"
+    ],
+    "replies_count": 63,
+    "reblogs_count": 566,
+    "favourites_count": 1446
+  },
+  {
+    "id": "115778715628906112",
+    "created_at": "2025-12-25T06:09:59.713Z",
+    "content": "",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778715628906112",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/715/404/223/622/original/0a01192aac46fa8b.mp4"
     ],
     "replies_count": 36,
-    "reblogs_count": 81,
-    "favourites_count": 218
+    "reblogs_count": 343,
+    "favourites_count": 1114
   },
   {
-    "id": "115778405955523721",
-    "created_at": "2025-12-25T04:51:14.472Z",
-    "content": "RT @realDonaldTrumpThank you Joshua. Total Crooks!!!",
-    "url": "https://truthsocial.com/@realDonaldTrump/115778405955523721",
-    "media": [],
-    "replies_count": 0,
-    "reblogs_count": 0,
-    "favourites_count": 0
-  },
-  {
-    "id": "115777270368444049",
-    "created_at": "2025-12-25T00:02:26.827Z",
-    "content": "Merry Christmas to all, including the Radical  Left Scum that is doing everything possible to destroy our Country, but are failing badly. We no longer have Open Borders, Men in Women\u00e2\u0080\u0099s Sports, Transgender for Everyone, or Weak Law Enforcement. What we do have is a Record Stock Market and 401K\u00e2\u0080\u0099s, Lowest Crime numbers in decades, No Inflation, and yesterday, a 4.3 GDP, two points better than expected. Tariffs have given us Trillions of Dollars in Growth and Prosperity, and the strongest National Security we have ever had. We are respected again, perhaps like never before. God Bless America!!! President DJT",
-    "url": "https://truthsocial.com/@realDonaldTrump/115777270368444049",
-    "media": [],
-    "replies_count": 3316,
-    "reblogs_count": 4451,
-    "favourites_count": 16601
-  },
-  {
-    "id": "115777189961532523",
-    "created_at": "2025-12-24T23:41:59.879Z",
-    "content": "Ex-FBI agent says Bondi has \u00e2\u0080\u0098slam dunk\u00e2\u0080\u0099 conspiracy case against Obama's feds for election meddling: https://justthenews.com/accountability/political-ethics/slam-dunk-ex-fbi-agent-says-bondi-has-clear-weaponization",
-    "url": "https://truthsocial.com/@realDonaldTrump/115777189961532523",
-    "media": [],
-    "replies_count": 1289,
-    "reblogs_count": 2856,
-    "favourites_count": 9297
-  },
-  {
-    "id": "115777187532951131",
-    "created_at": "2025-12-24T23:41:22.817Z",
-    "content": "John Brennan's lawyers confirm he is 'target' of Florida grand jury probe, asks judge to intervene:https://justthenews.com/accountability/political-ethics/john-brennans-lawyers-confirm-he-target-florida-grand-jury-probe",
-    "url": "https://truthsocial.com/@realDonaldTrump/115777187532951131",
-    "media": [],
-    "replies_count": 540,
-    "reblogs_count": 1934,
-    "favourites_count": 6982
-  },
-  {
-    "id": "115777185874091441",
-    "created_at": "2025-12-24T23:40:57.506Z",
-    "content": "Trump\u00e2\u0080\u0099s policy appeal with urban Americans has a surprising new messenger in Nicki Minaj:https://justthenews.com/government/white-house/trumps-election-appeal-black-americans-has-new-megastar-messenger-nicki",
-    "url": "https://truthsocial.com/@realDonaldTrump/115777185874091441",
-    "media": [],
-    "replies_count": 292,
-    "reblogs_count": 1629,
-    "favourites_count": 6623
-  },
-  {
-    "id": "115777183958226675",
-    "created_at": "2025-12-24T23:40:28.272Z",
-    "content": "Rubio imposes visa restrictions on European officials who attempted to censor American free speech:https://justthenews.com/government/diplomacy/rubio-issues-sanctions-european-officials-who-attempted-censor-american-free",
-    "url": "https://truthsocial.com/@realDonaldTrump/115777183958226675",
-    "media": [],
-    "replies_count": 349,
-    "reblogs_count": 1990,
-    "favourites_count": 7765
-  },
-  {
-    "id": "115777182422408467",
-    "created_at": "2025-12-24T23:40:04.838Z",
-    "content": "Democrats\u00e2\u0080\u0099 push for Epstein files boomeranged with Clinton featured prominently throughout:https://justthenews.com/politics-policy/clintons-doj-had-first-chance-prosecute-epstein-whiffed-opportunity",
-    "url": "https://truthsocial.com/@realDonaldTrump/115777182422408467",
-    "media": [],
-    "replies_count": 575,
-    "reblogs_count": 1984,
-    "favourites_count": 7076
-  },
-  {
-    "id": "115772932017222359",
-    "created_at": "2025-12-24T05:39:08.832Z",
-    "content": "MERRY CHRISTMAS!!!",
-    "url": "https://truthsocial.com/@realDonaldTrump/115772932017222359",
-    "media": [],
-    "replies_count": 8805,
-    "reblogs_count": 8244,
-    "favourites_count": 38022
-  },
-  {
-    "id": "115772922954148853",
-    "created_at": "2025-12-24T05:36:50.542Z",
-    "content": "If Network NEWSCASTS, and their Late Night Shows, are almost 100% Negative to President Donald J. Trump, MAGA, and the Republican Party, shouldn\u00e2\u0080\u0099t their very valuable Broadcast Licenses be terminated? I say, YES!",
-    "url": "https://truthsocial.com/@realDonaldTrump/115772922954148853",
-    "media": [],
-    "replies_count": 4848,
-    "reblogs_count": 5899,
-    "favourites_count": 26337
-  },
-  {
-    "id": "115772871198579287",
-    "created_at": "2025-12-24T05:23:40.817Z",
-    "content": "Who has the worst Late Night host, CBS, ABC, or NBC??? They all have three things in common: High Salaries, No Talent, REALLY LOW RATINGS!",
-    "url": "https://truthsocial.com/@realDonaldTrump/115772871198579287",
-    "media": [],
-    "replies_count": 2810,
-    "reblogs_count": 4317,
-    "favourites_count": 21518
-  },
-  {
-    "id": "115772841536331132",
-    "created_at": "2025-12-24T05:16:08.206Z",
-    "content": "Stephen Colbert is a pathetic trainwreck, with no talent or anything else necessary for show business success. Now, after being terminated by CBS, but left out to dry, he has actually gotten worse, along with his nonexistent ratings. Stephen is running on hatred and fumes ~ A dead man walking! CBS should, \u00e2\u0080\u009cput him to sleep,\u00e2\u0080\u009d NOW, it is the humanitarian thing to do!",
-    "url": "https://truthsocial.com/@realDonaldTrump/115772841536331132",
-    "media": [],
-    "replies_count": 1897,
-    "reblogs_count": 4345,
-    "favourites_count": 20895
-  },
-  {
-    "id": "115771638702591740",
-    "created_at": "2025-12-24T00:10:14.421Z",
-    "content": "Growth is up and Inflation is down in President Trump\u00e2\u0080\u0099s first year! Matthew Continetti, American Enterprise Institute",
-    "url": "https://truthsocial.com/@realDonaldTrump/115771638702591740",
-    "media": [],
-    "replies_count": 1836,
-    "reblogs_count": 4407,
-    "favourites_count": 21775
-  },
-  {
-    "id": "115771425501030740",
-    "created_at": "2025-12-23T23:16:01.183Z",
-    "content": "RT @realDonaldTrumpTHE TRUMP KENNEDY CENTER HONORS will be broadcast tonight, on CBS, and Stream on Paramount+. Tune in at 8 P.M. EST! At the request of the Board, and just about everybody else in America, I am hosting the event. Tell me what you think of my \u00e2\u0080\u009cMaster of Ceremony\u00e2\u0080\u009d abilities. If really good, would you like me to leave the Presidency in order to make \u00e2\u0080\u009chosting\u00e2\u0080\u009d a full time job? We will be honoring true GREATS in the History of Entertainment: Sylvester Stallone, Michael Crawford, KISS, George Strait, and Gloria Gaynor.",
-    "url": "https://truthsocial.com/@realDonaldTrump/115771425501030740",
-    "media": [],
-    "replies_count": 0,
-    "reblogs_count": 0,
-    "favourites_count": 0
-  },
-  {
-    "id": "115771425061663851",
-    "created_at": "2025-12-23T23:15:54.576Z",
-    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115771424134739431Thank you Joshua. Total Crooks!!!",
-    "url": "https://truthsocial.com/@realDonaldTrump/115771425061663851",
+    "id": "115778714874423453",
+    "created_at": "2025-12-25T06:09:48.205Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778713746344564",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778714874423453",
     "media": [
-      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/771/424/775/041/421/original/9a7ac62c05b7d7ff.png"
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/714/749/283/101/original/b30c24d0de6cded2.png"
     ],
-    "replies_count": 2049,
-    "reblogs_count": 6893,
-    "favourites_count": 17557
+    "replies_count": 57,
+    "reblogs_count": 509,
+    "favourites_count": 1336
   },
   {
-    "id": "115771424134739431",
-    "created_at": "2025-12-23T23:15:40.411Z",
+    "id": "115778713746344564",
+    "created_at": "2025-12-25T06:09:30.988Z",
     "content": "",
-    "url": "https://truthsocial.com/@realDonaldTrump/115771424134739431",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778713746344564",
     "media": [
-      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/771/420/216/916/347/original/00bd1eca9a3c7f48.mp4"
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/713/353/840/136/original/0802fd158bee8e1f.mp4"
     ],
-    "replies_count": 484,
-    "reblogs_count": 3115,
-    "favourites_count": 10069
+    "replies_count": 41,
+    "reblogs_count": 309,
+    "favourites_count": 981
   },
   {
-    "id": "115770367420942580",
-    "created_at": "2025-12-23T18:46:56.202Z",
-    "content": "Highly Respected Congresswoman, Harriet Hageman, is running for the United States Senate in the Great State of Wyoming, a place I love and WON BIG in 2016, 2020, and 2024!\u00c2\u00a0I know Harriet well, and she is a TOTAL WINNER! Harriet has ALWAYS delivered for Wyoming, and will continue to do so in the United States Senate. She will fight tirelessly to Grow our Economy, Cut Taxes and Regulations, Promote MADE IN THE U.S.A., Advance American Energy DOMINANCE, Champion our Amazing Farmers and Ranchers, Keep our Border SECURE, Stop Migrant Crime, Support our Incredible Military/Veterans, and Defend our always under siege Second Amendment.\u00c2\u00a0Harriet Hageman has my Complete and Total Endorsement to be your next Senator \u00e2\u0080\u0094 SHE WILL NEVER LET YOU DOWN!",
-    "url": "https://truthsocial.com/@realDonaldTrump/115770367420942580",
-    "media": [],
-    "replies_count": 1248,
-    "reblogs_count": 4416,
-    "favourites_count": 17688
+    "id": "115778697605641661",
+    "created_at": "2025-12-25T06:05:24.700Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778696925387181",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778697605641661",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/697/536/580/059/original/e0b6f41e74cf9789.png"
+    ],
+    "replies_count": 98,
+    "reblogs_count": 488,
+    "favourites_count": 1490
   },
   {
-    "id": "115770165868454573",
-    "created_at": "2025-12-23T17:55:40.715Z",
-    "content": "THE TRUMP RULE:The Financial News today was great \u00e2\u0080\u0094 GDP up 4.2% as opposed to the predicted 2.5% (and this, despite the downward pressure of the recent Democrat Shutdown!) \u00e2\u0080\u0094 But in the Modern Market, when you have good news, the Market stays even, or goes down, because Wall Street\u00e2\u0080\u0099s \u00e2\u0080\u009cheads\u00e2\u0080\u009d are wired differently than they used to be. In the old days, when there was good news, the Market went up. Nowadays, when there is good news, the Market goes down, because everybody thinks that Interest Rates will be immediately lifted to take care of \u00e2\u0080\u009cpotential\u00e2\u0080\u009d Inflation. That means that, essentially, we can never have a Great Market again, those Markets from the time when our Nation was building up, and becoming great. Strong Markets, even phenomenal Markets, don\u00e2\u0080\u0099t cause Inflation, stupidity does! I want my new Fed Chairman to lower Interest Rates if the Market is doing well, not destroy the Market for no reason whatsoever. I want to have a Market the likes of which we haven\u00e2\u0080\u0099t had in many decades, a Market that goes up on good news, and down on bad news, the way it should be, and the way it was. Inflation will take care of itself and, if it doesn\u00e2\u0080\u0099t, we can always raise Rates at the appropriate time \u00e2\u0080\u0094 But the appropriate time is not to kill Rallies, which could lift our Nation by 10, 15, and even 20 GDP points in a year \u00e2\u0080\u0094 and maybe even more than that! A Nation can never be Economically GREAT if \u00e2\u0080\u009ceggheads\u00e2\u0080\u009d are allowed to do everything within their power to destroy the upward slope. We are going to be encouraging the Good Market to get better, rather than make it impossible for it to do so. We are going to see numbers that are far more natural, and far better, than they have ever been before. We are going to, MAKE AMERICA GREAT AGAIN! The United States should be rewarded for SUCCESS, not brought down by it. Anybody that disagrees with me will never be the Fed Chairman!",
-    "url": "https://truthsocial.com/@realDonaldTrump/115770165868454573",
-    "media": [],
-    "replies_count": 1552,
-    "reblogs_count": 4769,
-    "favourites_count": 17714
-  },
-  {
-    "id": "115769520157248739",
-    "created_at": "2025-12-23T15:11:27.946Z",
-    "content": "Q3 GDP came in at 4.3%, BLOWING PAST expectations of 3.2%. 60 of 61 Bloomberg Economists got it WRONG, but \u00e2\u0080\u009cTRUMP,\u00e2\u0080\u009d and some other Geniuses, got it right. The SUCCESS is due to Good Government, and TARIFFS. Consumer spending is STRONG, Net Exports are WAY UP, Imports and Trade Deficits are WAY DOWN, and there is NO INFLATION! Because of my Tax Bill (THE GREAT BIG BEAUTIFUL BILL) and TARIFFS, INVESTMENT IS SETTING RECORDS. The Trump Economic Golden Age is FULL steam ahead \u00e2\u0080\u0094 \u00e2\u0080\u009cYou haven\u00e2\u0080\u0099t seen anything yet!\u00e2\u0080\u009d Thank you for your attention to this matter. MAKE AMERICA GREAT AGAIN! DONALD J. TRUMPPRESIDENT OF THE UNITED STATES OF AMERICA",
-    "url": "https://truthsocial.com/@realDonaldTrump/115769520157248739",
-    "media": [],
-    "replies_count": 1927,
-    "reblogs_count": 5517,
-    "favourites_count": 20123
-  },
-  {
-    "id": "115769455906748881",
-    "created_at": "2025-12-23T14:55:07.558Z",
-    "content": "THE TRUMP KENNEDY CENTER HONORS will be broadcast tonight, on CBS, and Stream on Paramount+. Tune in at 8 P.M. EST! At the request of the Board, and just about everybody else in America, I am hosting the event. Tell me what you think of my \u00e2\u0080\u009cMaster of Ceremony\u00e2\u0080\u009d abilities. If really good, would you like me to leave the Presidency in order to make \u00e2\u0080\u009chosting\u00e2\u0080\u009d a full time job? We will be honoring true GREATS in the History of Entertainment: Sylvester Stallone, Michael Crawford, KISS, George Strait, and Gloria Gaynor.",
-    "url": "https://truthsocial.com/@realDonaldTrump/115769455906748881",
-    "media": [],
-    "replies_count": 3717,
-    "reblogs_count": 5344,
-    "favourites_count": 23864
-  },
-  {
-    "id": "115769417518541473",
-    "created_at": "2025-12-23T14:45:21.803Z",
-    "content": "I had two wonderful telephone calls this morning with Kassym-Jomart Tokayev, the President of the Republic of Kazakhstan, and Shavkat Mirziyoyev, the President of the Republic of Uzbekistan. We discussed the importance of bringing Peace to ongoing conflicts, and increased Trade and Cooperation between our Nations. The relationship with both Countries is spectacular. The United States will be hosting the G20 Summit next year, and we will be extending invites to both of these Leaders to join us as guests at this very important event, which will take place in Miami!",
-    "url": "https://truthsocial.com/@realDonaldTrump/115769417518541473",
-    "media": [],
-    "replies_count": 587,
-    "reblogs_count": 3213,
-    "favourites_count": 14081
-  },
-  {
-    "id": "115769302680506780",
-    "created_at": "2025-12-23T14:16:09.512Z",
-    "content": "The TARIFFS are responsible for the GREAT USA Economic Numbers JUST ANNOUNCED\u00e2\u0080\u00a6AND THEY WILL ONLY GET BETTER! Also, NO INFLATION &amp; GREAT NATIONAL SECURITY. Pray for the U.S. Supreme Court!!! President DJT",
-    "url": "https://truthsocial.com/@realDonaldTrump/115769302680506780",
-    "media": [],
-    "replies_count": 2402,
-    "reblogs_count": 7618,
-    "favourites_count": 32849
-  },
-  {
-    "id": "115767241940653010",
-    "created_at": "2025-12-23T05:32:05.158Z",
-    "content": "The Failing New York Times, and their lies and purposeful misrepresentations, is a serious threat to the National Security of our Nation. Their Radical Left, Unhinged Behavior, writing FAKE Articles and Opinions in a never ending way, must be dealt with and stopped. THEY ARE A TRUE ENEMY OF THE PEOPLE! Thank you for you attention to this matter. PRESIDENT DJT",
-    "url": "https://truthsocial.com/@realDonaldTrump/115767241940653010",
-    "media": [],
-    "replies_count": 2951,
-    "reblogs_count": 6456,
-    "favourites_count": 24218
-  },
-  {
-    "id": "115766436001136705",
-    "created_at": "2025-12-23T02:07:07.457Z",
+    "id": "115778696925387181",
+    "created_at": "2025-12-25T06:05:14.320Z",
     "content": "",
-    "url": "https://truthsocial.com/@realDonaldTrump/115766436001136705",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778696925387181",
     "media": [
-      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/766/433/404/045/989/original/a0e9ec2c951def04.mp4"
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/696/524/475/798/original/f224681a0196411f.mp4"
     ],
-    "replies_count": 1070,
-    "reblogs_count": 3827,
-    "favourites_count": 13876
+    "replies_count": 43,
+    "reblogs_count": 336,
+    "favourites_count": 1172
   },
   {
-    "id": "115766427527255324",
-    "created_at": "2025-12-23T02:04:58.156Z",
+    "id": "115778695873160454",
+    "created_at": "2025-12-25T06:04:58.265Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778694936771888",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778695873160454",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/695/719/094/832/original/c7d2cb4ceee2d847.png"
+    ],
+    "replies_count": 66,
+    "reblogs_count": 478,
+    "favourites_count": 1429
+  },
+  {
+    "id": "115778694936771888",
+    "created_at": "2025-12-25T06:04:43.979Z",
     "content": "",
-    "url": "https://truthsocial.com/@realDonaldTrump/115766427527255324",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778694936771888",
     "media": [
-      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/766/422/346/759/051/original/f1d110f87c190aff.mp4"
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/694/600/439/018/original/7c633a59ff81f8ab.mp4"
     ],
-    "replies_count": 925,
-    "reblogs_count": 3193,
-    "favourites_count": 11833
+    "replies_count": 45,
+    "reblogs_count": 331,
+    "favourites_count": 1100
   },
   {
-    "id": "115766194471748593",
-    "created_at": "2025-12-23T01:05:42.053Z",
-    "content": "Thank you to highly respected Alex Marlow, Editor-In-Chief of Breitbart, for his nice words on The Ingraham Angle. Likewise to Jason Miller and Rod Blagojevich. So nice!!! President DJT",
-    "url": "https://truthsocial.com/@realDonaldTrump/115766194471748593",
-    "media": [],
-    "replies_count": 856,
-    "reblogs_count": 3611,
-    "favourites_count": 17107
+    "id": "115778693977728451",
+    "created_at": "2025-12-25T06:04:29.342Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778692737114852",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778693977728451",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/693/869/922/459/original/17d13227d7ccb4f1.png"
+    ],
+    "replies_count": 63,
+    "reblogs_count": 456,
+    "favourites_count": 1441
   },
   {
-    "id": "115760835934170593",
-    "created_at": "2025-12-22T02:22:57.216Z",
+    "id": "115778692737114852",
+    "created_at": "2025-12-25T06:04:10.412Z",
     "content": "",
-    "url": "https://truthsocial.com/@realDonaldTrump/115760835934170593",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778692737114852",
     "media": [
-      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/760/568/747/213/267/original/c011a83fd8978b8c.mp4"
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/692/493/082/691/original/862c8d8f05ec7532.mp4"
     ],
-    "replies_count": 2743,
-    "reblogs_count": 5347,
-    "favourites_count": 20515
+    "replies_count": 45,
+    "reblogs_count": 331,
+    "favourites_count": 1141
   },
   {
-    "id": "115760829286615399",
-    "created_at": "2025-12-22T02:21:15.785Z",
-    "content": "I am pleased to announce that I am appointing the GREAT Governor of Louisiana, Jeff Landry, as the United States Special Envoy to Greenland. Jeff understands how essential Greenland is to our National Security, and will strongly advance our Country\u00e2\u0080\u0099s Interests for the Safety, Security, and Survival of our Allies, and indeed, the World. Congratulations Jeff!",
-    "url": "https://truthsocial.com/@realDonaldTrump/115760829286615399",
-    "media": [],
-    "replies_count": 1701,
-    "reblogs_count": 5414,
-    "favourites_count": 25243
+    "id": "115778691872777547",
+    "created_at": "2025-12-25T06:03:57.224Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778690709770144",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778691872777547",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/691/737/150/757/original/c55a4b1208c1026d.png"
+    ],
+    "replies_count": 81,
+    "reblogs_count": 537,
+    "favourites_count": 1336
   },
   {
-    "id": "115760568118126841",
-    "created_at": "2025-12-22T01:14:50.740Z",
+    "id": "115778690709770144",
+    "created_at": "2025-12-25T06:03:39.480Z",
     "content": "",
-    "url": "https://truthsocial.com/@realDonaldTrump/115760568118126841",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778690709770144",
     "media": [
-      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/760/567/771/097/478/original/7a6a08860025e7f0.jpg"
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/690/518/761/621/original/c1415aad89562edf.mp4"
     ],
-    "replies_count": 2412,
-    "reblogs_count": 5589,
-    "favourites_count": 25286
+    "replies_count": 46,
+    "reblogs_count": 350,
+    "favourites_count": 1048
   },
   {
-    "id": "115760563666452538",
-    "created_at": "2025-12-22T01:13:42.811Z",
+    "id": "115778689621767797",
+    "created_at": "2025-12-25T06:03:22.876Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778688581006735",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778689621767797",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/689/543/410/519/original/00b7aed9c4f77595.png"
+    ],
+    "replies_count": 57,
+    "reblogs_count": 469,
+    "favourites_count": 1301
+  },
+  {
+    "id": "115778688581006735",
+    "created_at": "2025-12-25T06:03:06.994Z",
     "content": "",
-    "url": "https://truthsocial.com/@realDonaldTrump/115760563666452538",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778688581006735",
     "media": [
-      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/760/563/213/968/855/original/2fa9bea99a446b17.jpg"
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/688/000/573/677/original/e8e9b19c52a78a88.mp4"
     ],
-    "replies_count": 1275,
-    "reblogs_count": 5302,
-    "favourites_count": 23876
+    "replies_count": 35,
+    "reblogs_count": 307,
+    "favourites_count": 1023
   },
   {
-    "id": "115760562424623455",
-    "created_at": "2025-12-22T01:13:23.794Z",
+    "id": "115778687479095266",
+    "created_at": "2025-12-25T06:02:50.184Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778686572490561",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778687479095266",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/687/309/013/440/original/a980936c97b0c538.png"
+    ],
+    "replies_count": 46,
+    "reblogs_count": 425,
+    "favourites_count": 1153
+  },
+  {
+    "id": "115778686572490561",
+    "created_at": "2025-12-25T06:02:36.350Z",
     "content": "",
-    "url": "https://truthsocial.com/@realDonaldTrump/115760562424623455",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778686572490561",
     "media": [
-      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/760/562/131/567/299/original/be98c856479dccac.jpg"
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/685/970/031/274/original/b926bcca47023b90.mp4"
     ],
-    "replies_count": 1246,
-    "reblogs_count": 5224,
-    "favourites_count": 24186
+    "replies_count": 26,
+    "reblogs_count": 278,
+    "favourites_count": 929
   },
   {
-    "id": "115760561540102910",
-    "created_at": "2025-12-22T01:13:10.370Z",
+    "id": "115778685340345071",
+    "created_at": "2025-12-25T06:02:17.550Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778684555980272",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778685340345071",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/685/176/620/275/original/3730b45f85ace8bd.png"
+    ],
+    "replies_count": 61,
+    "reblogs_count": 485,
+    "favourites_count": 1157
+  },
+  {
+    "id": "115778684555980272",
+    "created_at": "2025-12-25T06:02:05.577Z",
     "content": "",
-    "url": "https://truthsocial.com/@realDonaldTrump/115760561540102910",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778684555980272",
     "media": [
-      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/760/561/119/184/627/original/513c55a050924e55.jpg"
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/684/114/140/680/original/86675f93e3c4ff7e.mp4"
     ],
-    "replies_count": 965,
-    "reblogs_count": 5426,
-    "favourites_count": 19522
+    "replies_count": 27,
+    "reblogs_count": 301,
+    "favourites_count": 933
   },
   {
-    "id": "115760561029961357",
-    "created_at": "2025-12-22T01:13:02.583Z",
+    "id": "115778683468330649",
+    "created_at": "2025-12-25T06:01:48.986Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778682549907588",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778683468330649",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/683/351/157/200/original/a25c2a19a3595a16.png"
+    ],
+    "replies_count": 34,
+    "reblogs_count": 423,
+    "favourites_count": 1098
+  },
+  {
+    "id": "115778682549907588",
+    "created_at": "2025-12-25T06:01:34.971Z",
     "content": "",
-    "url": "https://truthsocial.com/@realDonaldTrump/115760561029961357",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778682549907588",
     "media": [
-      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/760/560/305/187/218/original/14069a22c1913a87.jpg"
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/682/114/900/737/original/f89fa2d46ca0a36e.mp4"
     ],
-    "replies_count": 661,
-    "reblogs_count": 3881,
-    "favourites_count": 17394
+    "replies_count": 27,
+    "reblogs_count": 304,
+    "favourites_count": 913
   },
   {
-    "id": "115760559837426054",
-    "created_at": "2025-12-22T01:12:44.390Z",
+    "id": "115778673675002144",
+    "created_at": "2025-12-25T05:59:19.550Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778672773886558",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778673675002144",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/673/492/969/350/original/2597a47bccb4e9de.png"
+    ],
+    "replies_count": 88,
+    "reblogs_count": 478,
+    "favourites_count": 1212
+  },
+  {
+    "id": "115778672773886558",
+    "created_at": "2025-12-25T05:59:05.800Z",
     "content": "",
-    "url": "https://truthsocial.com/@realDonaldTrump/115760559837426054",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778672773886558",
     "media": [
-      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/760/559/310/662/852/original/901e883c7a341210.jpg"
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/671/869/641/106/original/4c55b15f299358ec.mp4"
     ],
-    "replies_count": 522,
-    "reblogs_count": 4062,
-    "favourites_count": 16828
+    "replies_count": 39,
+    "reblogs_count": 298,
+    "favourites_count": 953
   },
   {
-    "id": "115754574755767978",
-    "created_at": "2025-12-20T23:50:39.215Z",
-    "content": "RT @PressSecThe Trump Effect:\"Gas prices hit cheapest December levels in 4 years as holiday travelers hit the road nationwide\"https://www.foxbusiness.com/lifestyle/gas-prices-hit-cheapest-december-levels-4-years-holiday-travelers-hit-road-nationwide",
-    "url": "https://truthsocial.com/@realDonaldTrump/115754574755767978",
-    "media": [],
-    "replies_count": 0,
-    "reblogs_count": 0,
-    "favourites_count": 1
+    "id": "115778671370701656",
+    "created_at": "2025-12-25T05:58:44.390Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778670557856261",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778671370701656",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/671/233/202/964/original/5b7cede6a128a4cb.png"
+    ],
+    "replies_count": 54,
+    "reblogs_count": 434,
+    "favourites_count": 1251
   },
   {
-    "id": "115754574380065681",
-    "created_at": "2025-12-20T23:50:33.485Z",
-    "content": "RT @PressSecTrump administration touts \u00e2\u0080\u0098most secure border in history\u00e2\u0080\u0099 as 2.5 million migrants exit UShttps://www.foxnews.com/politics/trump-administration-touts-secure-border-history-2-5-million-migrants-exit-us",
-    "url": "https://truthsocial.com/@realDonaldTrump/115754574380065681",
-    "media": [],
-    "replies_count": 0,
-    "reblogs_count": 0,
-    "favourites_count": 1
-  },
-  {
-    "id": "115754571956299155",
-    "created_at": "2025-12-20T23:49:56.501Z",
-    "content": "Top Attorney EXPOSES The Corruption of Andrew Weissmann:https://youtu.be/dIrR_nrS46A",
-    "url": "https://truthsocial.com/@realDonaldTrump/115754571956299155",
-    "media": [],
-    "replies_count": 1482,
-    "reblogs_count": 5093,
-    "favourites_count": 16199
-  },
-  {
-    "id": "115754059136466585",
-    "created_at": "2025-12-20T21:39:31.491Z",
-    "content": "Highly Respected and very popular Nassau County Executive, Bruce Blakeman, is running to be the next Governor of New York.\u00c2\u00a0Bruce is MAGA all the way, and has been with me from the very beginning. As Nassau County Executive, he is working tirelessly with the Brave Heroes of ICE, Border Patrol, and Law Enforcement to Keep Our Border SECURE, Stop Migrant Crime, Safeguard our Community, and Ensure LAW AND ORDER. As your next Governor, Bruce will continue to fight hard to Grow the Economy, Cut Taxes, and Regulations, Promote MADE IN THE U.S.A., Champion American Energy DOMINANCE, Strengthen our Military/Veterans, Advance Election Integrity, and Protect our always under siege Second Amendment! \u00c2\u00a0Bruce Blakeman is a FANTASTIC guy, will win the big November Election and, without hesitation, has my Complete and Total Endorsement for Governor of the ONCE GREAT STATE OF NEW YORK (IT CAN BE GREAT AGAIN!). BRUCE BLAKEMAN WILL NEVER LET YOU DOWN!",
-    "url": "https://truthsocial.com/@realDonaldTrump/115754059136466585",
-    "media": [],
-    "replies_count": 1820,
-    "reblogs_count": 6015,
-    "favourites_count": 23127
-  },
-  {
-    "id": "115753614039585949",
-    "created_at": "2025-12-20T19:46:19.850Z",
+    "id": "115778670557856261",
+    "created_at": "2025-12-25T05:58:31.984Z",
     "content": "",
-    "url": "https://truthsocial.com/@realDonaldTrump/115753614039585949",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778670557856261",
     "media": [
-      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/753/613/820/211/389/original/b992cc17e345167f.jpg"
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/670/336/483/076/original/322325cfb3ab5e33.mp4"
     ],
-    "replies_count": 1118,
-    "reblogs_count": 6046,
-    "favourites_count": 25205
+    "replies_count": 37,
+    "reblogs_count": 288,
+    "favourites_count": 972
   },
   {
-    "id": "115750227263339859",
-    "created_at": "2025-12-20T05:25:01.744Z",
-    "content": "Just leaving North Carolina, where the Crowd was amazing! They will hopefully be voting for Michael Whatley, to be the next Senator. His opponent, former Governor Roy Cooper, is a Radical Left Lunatic who let the people of North Carolina down, especially in time of need. Heading to Florida, with lots of meetings scheduled. Tremendous announcement today, in the White House, on \u00e2\u0080\u009cMost Favored Nation\u00e2\u0080\u009d Drug Pricing. There has never been anything like it in the Medical World. Prices are now dropping at levels never seen before. This alone should win the Midterms for Republicans! No Democrat could have come close to doing it. Prices will be dropping by 300, 400, 500, 600, 700, and even 800%! On the plane I just got to watch the Jake Paul Fight, and he did really well, especially as a display of GREAT Courage against a very talented and large Anthony Joshua. Fantastic Entertainment, but Kudos to Jake for his Stamina, and frankly, Ability, against a much bigger man!",
-    "url": "https://truthsocial.com/@realDonaldTrump/115750227263339859",
-    "media": [],
-    "replies_count": 3144,
-    "reblogs_count": 6213,
-    "favourites_count": 28303
+    "id": "115778669811902620",
+    "created_at": "2025-12-25T05:58:20.604Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778668835030119",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778669811902620",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/669/673/208/202/original/eba8baf7ee692d05.png"
+    ],
+    "replies_count": 45,
+    "reblogs_count": 362,
+    "favourites_count": 1030
   },
   {
-    "id": "115748998203463423",
-    "created_at": "2025-12-20T00:12:27.820Z",
-    "content": "I just spoke with Governor Greg Gianforte, of the Great State of Montana, and informed him that I will be approving an Emergency Declaration for Montana for severe storms they experienced this month. I LOVE MONTANA!",
-    "url": "https://truthsocial.com/@realDonaldTrump/115748998203463423",
-    "media": [],
-    "replies_count": 1391,
-    "reblogs_count": 4942,
-    "favourites_count": 25755
-  },
-  {
-    "id": "115748995021059823",
-    "created_at": "2025-12-20T00:11:39.262Z",
-    "content": "I\u00e2\u0080\u0099ll be in North Carolina tonight at the wonderful Rocky Mount Events Center and, therefore, will not be in attendance at Mar-a-Lago tonight for a very special event honoring the GREAT House Majority Whip, Tom Emmer. He is my great friend, and one of the most talented politicians in our Country.\u00c2\u00a0As the Majority Whip of the U.S. House of Representatives, Tom is doing a tremendous job advancing our America First Agenda. He is fighting tirelessly to Grow our Economy, Cut Taxes and Regulations, Promote MADE IN THE U.S.A., Unleash American Energy DOMINANCE, Keep our now very Secure Border, SECURE, Stop Migrant Crime, Strengthen our Military/Veterans, and Defend our always under siege Second Amendment.\u00c2\u00a0Tom Emmer is a fighter and WINNER, and has my Complete and Total Endorsement for Re-Election \u00e2\u0080\u0094 HE WILL NEVER LET YOU DOWN!",
-    "url": "https://truthsocial.com/@realDonaldTrump/115748995021059823",
-    "media": [],
-    "replies_count": 817,
-    "reblogs_count": 3857,
-    "favourites_count": 19641
-  },
-  {
-    "id": "115748898604800291",
-    "created_at": "2025-12-19T23:47:08.064Z",
-    "content": "Nine Billion Dollars was STOLEN FROM THE STATE OF MINNESOTA by Illegal Somalian Criminals. They must pay a big price, NOW!!! President DJT",
-    "url": "https://truthsocial.com/@realDonaldTrump/115748898604800291",
-    "media": [],
-    "replies_count": 3606,
-    "reblogs_count": 9277,
-    "favourites_count": 32570
-  },
-  {
-    "id": "115748870260800797",
-    "created_at": "2025-12-19T23:39:55.571Z",
-    "content": "Elizabeth MacDonald of FoxBusiness is FANTASTIC. She really understands what is going on in the World of business, and far beyond!!!  President DJT",
-    "url": "https://truthsocial.com/@realDonaldTrump/115748870260800797",
-    "media": [],
-    "replies_count": 643,
-    "reblogs_count": 3818,
-    "favourites_count": 19642
-  },
-  {
-    "id": "115748701721247530",
-    "created_at": "2025-12-19T22:57:03.862Z",
-    "content": "Because of ISIS\u00e2\u0080\u0099s vicious killing of brave American Patriots in Syria, whose beautiful souls I welcomed home to American soil earlier this week in a very dignified ceremony, I am hereby announcing that the United States is inflicting very serious retaliation, just as I promised, on the murderous terrorists responsible. We are striking very strongly against ISIS strongholds in Syria, a place soaked in blood which has many problems, but one that has a bright future if ISIS can be eradicated. The Government of Syria, led by a man who is working very hard to bring Greatness back to Syria, and is fully in support. All terrorists who are evil enough to attack Americans are hereby warned \u00e2\u0080\u0094 YOU WILL BE HIT HARDER THAN YOU HAVE EVER BEEN HIT BEFORE IF YOU, IN ANY WAY, ATTACK OR THREATEN THE U.S.A. DONALD J. TRUMPPRESIDENT OF THE UNITED STATES OF AMERICA",
-    "url": "https://truthsocial.com/@realDonaldTrump/115748701721247530",
-    "media": [],
-    "replies_count": 1632,
-    "reblogs_count": 6684,
-    "favourites_count": 26118
-  },
-  {
-    "id": "115748555238487311",
-    "created_at": "2025-12-19T22:19:48.714Z",
-    "content": "Elise Stefanik, a fantastic person and Congresswoman from New York State, has just announced she won\u00e2\u0080\u0099t be running for Governor. Elise is a tremendous talent, regardless of what she does. She will have GREAT success, and I am with her all the way!",
-    "url": "https://truthsocial.com/@realDonaldTrump/115748555238487311",
-    "media": [],
-    "replies_count": 1115,
-    "reblogs_count": 4364,
-    "favourites_count": 22309
-  },
-  {
-    "id": "115748466708380170",
-    "created_at": "2025-12-19T21:57:17.851Z",
-    "content": "I have just informed Senator Roger Marshall that I have approved $5.7 Million Dollars for the wonderful State of Kansas in order to recover from severe storms, tornados, and flooding. These are tough and smart Patriots who love our Country, and will rebuild stronger than ever before!",
-    "url": "https://truthsocial.com/@realDonaldTrump/115748466708380170",
-    "media": [],
-    "replies_count": 570,
-    "reblogs_count": 3752,
-    "favourites_count": 18579
-  },
-  {
-    "id": "115748453260594922",
-    "created_at": "2025-12-19T21:53:52.652Z",
-    "content": "I just approved more money for the La Jolla Band of Luiseno Indians to help them recover from the damage to their Community during Tropical Storm Hilary \u00e2\u0080\u0094 They are GREAT people!",
-    "url": "https://truthsocial.com/@realDonaldTrump/115748453260594922",
-    "media": [],
-    "replies_count": 456,
-    "reblogs_count": 3581,
-    "favourites_count": 18010
-  },
-  {
-    "id": "115747232618687626",
-    "created_at": "2025-12-19T16:43:27.094Z",
-    "content": "The only reason our Unemployment ticked up to 4.5% is because we are reducing the Government Workforce by numbers that have never been seen before. 100% OF OUR NEW JOBS ARE IN THE PRIVATE SECTOR! I could reduce Unemployment to 2% overnight by just hiring people into the Federal Government, even though those Jobs are not necessary. I wish the Fake News would report the 4.5% correctly. What I am doing is the only way to, MAKE AMERICA GREAT AGAIN!",
-    "url": "https://truthsocial.com/@realDonaldTrump/115747232618687626",
-    "media": [],
-    "replies_count": 3380,
-    "reblogs_count": 7723,
-    "favourites_count": 28820
-  },
-  {
-    "id": "115747054082175146",
-    "created_at": "2025-12-19T15:58:02.918Z",
+    "id": "115778668835030119",
+    "created_at": "2025-12-25T05:58:05.698Z",
     "content": "",
-    "url": "https://truthsocial.com/@realDonaldTrump/115747054082175146",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778668835030119",
     "media": [
-      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/747/053/577/373/204/original/57df83402a87e453.mp4"
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/668/618/644/259/original/fa6c3561421df4a5.mp4"
     ],
-    "replies_count": 656,
-    "reblogs_count": 3807,
-    "favourites_count": 14912
+    "replies_count": 29,
+    "reblogs_count": 267,
+    "favourites_count": 873
   },
   {
-    "id": "115746995517654860",
-    "created_at": "2025-12-19T15:43:09.290Z",
+    "id": "115778668063355960",
+    "created_at": "2025-12-25T05:57:53.923Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778667013629679",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778668063355960",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/667/854/669/537/original/2b574044de48348b.png"
+    ],
+    "replies_count": 47,
+    "reblogs_count": 426,
+    "favourites_count": 1098
+  },
+  {
+    "id": "115778667013629679",
+    "created_at": "2025-12-25T05:57:37.902Z",
     "content": "",
-    "url": "https://truthsocial.com/@realDonaldTrump/115746995517654860",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778667013629679",
     "media": [
-      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/746/993/661/633/276/original/c6bbc91d86fda8a5.mp4"
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/666/833/635/251/original/c59b76dcfa1877ab.mp4"
     ],
-    "replies_count": 1802,
-    "reblogs_count": 5147,
-    "favourites_count": 15583
+    "replies_count": 28,
+    "reblogs_count": 281,
+    "favourites_count": 861
   },
   {
-    "id": "115746937797990743",
-    "created_at": "2025-12-19T15:28:28.525Z",
-    "content": "Insurance companies are ripping off America. Healthcare money must go directly to the PEOPLE. Dems must get on board!!!https://nypost.com/2025/12/10/opinion/insurance-companies-are-making-record-profits-off-climate-change-panic-not-facts/",
-    "url": "https://truthsocial.com/@realDonaldTrump/115746937797990743",
-    "media": [],
-    "replies_count": 1548,
-    "reblogs_count": 5524,
-    "favourites_count": 19275
-  },
-  {
-    "id": "115746927359326655",
-    "created_at": "2025-12-19T15:25:49.244Z",
-    "content": "\u00e2\u0080\u009cSafest DC has ever been. Thank you President Trump!!!\u00e2\u0080\u009dDouglas Murray: Trump cleaned up crime in DC \u00e2\u0080\u0093 and taught everyone a lesson in public safety:https://nypost.com/2025/12/18/opinion/douglas-murray-trump-cleaned-up-crime-in-dc-and-taught-everyone-a-lesson-in-public-safety/",
-    "url": "https://truthsocial.com/@realDonaldTrump/115746927359326655",
-    "media": [],
-    "replies_count": 681,
-    "reblogs_count": 4094,
-    "favourites_count": 16922
-  },
-  {
-    "id": "115744604019079688",
-    "created_at": "2025-12-19T05:34:57.884Z",
-    "content": "Democrats Approval numbers in Congress are the Worst Ever - Negative 55 Points! Harry Enten.",
-    "url": "https://truthsocial.com/@realDonaldTrump/115744604019079688",
-    "media": [],
-    "replies_count": 2487,
-    "reblogs_count": 5386,
-    "favourites_count": 22138
-  },
-  {
-    "id": "115744349172803672",
-    "created_at": "2025-12-19T04:30:09.205Z",
-    "content": "It\u00e2\u0080\u0099s all happening!!!https://justthenews.com/government/white-house/trump-defies-odds-achieves-economic-hat-trick-rate-cuts-tariffs-and-cooling",
-    "url": "https://truthsocial.com/@realDonaldTrump/115744349172803672",
+    "id": "115778666051535431",
+    "created_at": "2025-12-25T05:57:23.227Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778665075791255",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778666051535431",
     "media": [
-      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/744/348/622/492/963/original/9d5950e2769eccd4.png"
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/665/901/784/057/original/41b735a93131dde3.png"
     ],
-    "replies_count": 1676,
-    "reblogs_count": 6136,
-    "favourites_count": 22300
+    "replies_count": 34,
+    "reblogs_count": 385,
+    "favourites_count": 1013
   },
   {
-    "id": "115743433358756069",
-    "created_at": "2025-12-19T00:37:14.991Z",
-    "content": "I\u00e2\u0080\u0099ll be in North Carolina tomorrow at the wonderful Rocky Mount Events Center. So much to discuss. See you there. Doors open at 6 P.M. MAKE AMERICA GREAT AGAIN! President DJThttps://eoppra.my.site.com/survey/survey/runtimeApp.app?invitationId=0KiSJ000000yOkD&amp;surveyName=v2_guest_registration_rocky_mount_nc&amp;UUID=f9c1480c-dbb6-4f8e-80a4-5f700f2c82f1",
-    "url": "https://truthsocial.com/@realDonaldTrump/115743433358756069",
-    "media": [],
-    "replies_count": 1512,
-    "reblogs_count": 4654,
-    "favourites_count": 20683
+    "id": "115778665075791255",
+    "created_at": "2025-12-25T05:57:08.337Z",
+    "content": "",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778665075791255",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/664/756/426/304/original/92c2c0237d459437.mp4"
+    ],
+    "replies_count": 28,
+    "reblogs_count": 286,
+    "favourites_count": 875
   },
   {
-    "id": "115742838603762912",
-    "created_at": "2025-12-18T22:05:59.747Z",
-    "content": "It is my Great Honor to endorse MAGA Warrior, Chris Gober, who is running to represent the wonderful people of Texas\u00e2\u0080\u0099 10th Congressional District.\u00c2\u00a0A Harvard Law School Graduate, and very successful Lawyer, Chris knows the Wisdom and Courage required to uphold our Constitution, and promote LAW AND ORDER. In Congress, Chris will fight tirelessly to Grow our Economy, Cut Taxes and Regulations, Promote MADE IN THE U.S.A., Champion American Energy DOMINANCE, Keep our now very Secure Border, SECURE, Strongly Support our incredible Law Enforcement, Military, and Veterans, and Protect our always under siege Second Amendment.\u00c2\u00a0Chris Gober has my Complete and Total Endorsement \u00e2\u0080\u0094 HE WILL NEVER LET YOU DOWN!",
-    "url": "https://truthsocial.com/@realDonaldTrump/115742838603762912",
-    "media": [],
-    "replies_count": 945,
-    "reblogs_count": 3878,
-    "favourites_count": 17281
+    "id": "115778662603281187",
+    "created_at": "2025-12-25T05:56:30.609Z",
+    "content": "",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778662603281187",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/662/317/609/682/original/5173cec5798c4715.mp4"
+    ],
+    "replies_count": 36,
+    "reblogs_count": 368,
+    "favourites_count": 939
+  },
+  {
+    "id": "115778661821663314",
+    "created_at": "2025-12-25T05:56:18.684Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778659846417183",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778661821663314",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/661/673/226/560/original/2ac9d5e5cc69d47a.png"
+    ],
+    "replies_count": 66,
+    "reblogs_count": 420,
+    "favourites_count": 1108
+  },
+  {
+    "id": "115778659846417183",
+    "created_at": "2025-12-25T05:55:48.539Z",
+    "content": "",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778659846417183",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/659/641/602/510/original/23d74a1e88bf724c.mp4"
+    ],
+    "replies_count": 73,
+    "reblogs_count": 328,
+    "favourites_count": 973
+  },
+  {
+    "id": "115778652541617539",
+    "created_at": "2025-12-25T05:53:57.082Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778651498555895",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778652541617539",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/652/439/807/650/original/8a6e330d3b6dd8a7.png"
+    ],
+    "replies_count": 84,
+    "reblogs_count": 420,
+    "favourites_count": 1147
+  },
+  {
+    "id": "115778651498555895",
+    "created_at": "2025-12-25T05:53:41.165Z",
+    "content": "",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778651498555895",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/651/017/976/799/original/2ae9851afe812591.mp4"
+    ],
+    "replies_count": 36,
+    "reblogs_count": 277,
+    "favourites_count": 936
+  },
+  {
+    "id": "115778650399168903",
+    "created_at": "2025-12-25T05:53:24.390Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778649006380422",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778650399168903",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/650/229/934/765/original/fd4295af11a9e318.png"
+    ],
+    "replies_count": 52,
+    "reblogs_count": 381,
+    "favourites_count": 1048
+  },
+  {
+    "id": "115778649006380422",
+    "created_at": "2025-12-25T05:53:03.134Z",
+    "content": "",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778649006380422",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/648/643/539/861/original/32c0d901f50cdc2c.mp4"
+    ],
+    "replies_count": 30,
+    "reblogs_count": 262,
+    "favourites_count": 876
+  },
+  {
+    "id": "115778648056500688",
+    "created_at": "2025-12-25T05:52:48.643Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778647199873730",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778648056500688",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/647/948/085/947/original/378d0bfd5a737903.png"
+    ],
+    "replies_count": 22,
+    "reblogs_count": 334,
+    "favourites_count": 957
+  },
+  {
+    "id": "115778647199873730",
+    "created_at": "2025-12-25T05:52:35.568Z",
+    "content": "",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778647199873730",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/646/688/526/923/original/98cfea8217918741.mp4"
+    ],
+    "replies_count": 27,
+    "reblogs_count": 251,
+    "favourites_count": 812
+  },
+  {
+    "id": "115778646057306486",
+    "created_at": "2025-12-25T05:52:18.139Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778644445259589",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778646057306486",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/645/967/280/787/original/27f12f5bea5a4899.png"
+    ],
+    "replies_count": 28,
+    "reblogs_count": 333,
+    "favourites_count": 1026
+  },
+  {
+    "id": "115778644445259589",
+    "created_at": "2025-12-25T05:51:53.539Z",
+    "content": "",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778644445259589",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/644/284/706/395/original/8ceb8bce7fd5de7b.mp4"
+    ],
+    "replies_count": 41,
+    "reblogs_count": 278,
+    "favourites_count": 915
+  },
+  {
+    "id": "115778643728609854",
+    "created_at": "2025-12-25T05:51:42.603Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778641377291130",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778643728609854",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/643/599/827/102/original/6dba477a9aa97a50.png"
+    ],
+    "replies_count": 33,
+    "reblogs_count": 378,
+    "favourites_count": 1020
+  },
+  {
+    "id": "115778641377291130",
+    "created_at": "2025-12-25T05:51:06.726Z",
+    "content": "",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778641377291130",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/641/160/562/523/original/9c801d368eef56d5.mp4"
+    ],
+    "replies_count": 41,
+    "reblogs_count": 286,
+    "favourites_count": 916
+  },
+  {
+    "id": "115778640487816494",
+    "created_at": "2025-12-25T05:50:53.154Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/115778636060609960",
+    "url": "https://truthsocial.com/@realDonaldTrump/115778640487816494",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/115/778/640/396/101/196/original/6d134ddceac00a6c.png"
+    ],
+    "replies_count": 37,
+    "reblogs_count": 347,
+    "favourites_count": 953
   },
   {
     "id": "115437112529618205",
