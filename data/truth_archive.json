@@ -1,13 +1,133 @@
 [
   {
+    "id": "116985547613847953",
+    "created_at": "2026-07-26T09:23:14.496Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116985546564236950",
+    "url": "https://truthsocial.com/@realDonaldTrump/116985547613847953",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/116/985/547/417/139/548/original/a03ae405a09da9a3.png"
+    ],
+    "replies_count": 213,
+    "reblogs_count": 357,
+    "favourites_count": 1035
+  },
+  {
+    "id": "116985546564236950",
+    "created_at": "2026-07-26T09:22:58.480Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116985545303195966",
+    "url": "https://truthsocial.com/@realDonaldTrump/116985546564236950",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/116/985/546/026/728/874/original/8e6ebf0585d79a51.mp4"
+    ],
+    "replies_count": 72,
+    "reblogs_count": 254,
+    "favourites_count": 885
+  },
+  {
+    "id": "116985545303195966",
+    "created_at": "2026-07-26T09:22:39.238Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116985544314974655",
+    "url": "https://truthsocial.com/@realDonaldTrump/116985545303195966",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/116/985/544/918/099/117/original/6fcbe3472e0fd7dc.png"
+    ],
+    "replies_count": 44,
+    "reblogs_count": 228,
+    "favourites_count": 773
+  },
+  {
+    "id": "116985544314974655",
+    "created_at": "2026-07-26T09:22:24.066Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116985543077318839",
+    "url": "https://truthsocial.com/@realDonaldTrump/116985544314974655",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/116/985/543/865/001/325/original/adadf869c2210398.png"
+    ],
+    "replies_count": 35,
+    "reblogs_count": 232,
+    "favourites_count": 785
+  },
+  {
+    "id": "116985543077318839",
+    "created_at": "2026-07-26T09:22:05.275Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116985541740203201",
+    "url": "https://truthsocial.com/@realDonaldTrump/116985543077318839",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/116/985/542/680/005/931/original/e2892f95619748cf.png"
+    ],
+    "replies_count": 31,
+    "reblogs_count": 206,
+    "favourites_count": 736
+  },
+  {
+    "id": "116985541740203201",
+    "created_at": "2026-07-26T09:21:44.874Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116985540759658958",
+    "url": "https://truthsocial.com/@realDonaldTrump/116985541740203201",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/116/985/541/447/595/628/original/4e9330fcca29f995.png"
+    ],
+    "replies_count": 36,
+    "reblogs_count": 195,
+    "favourites_count": 715
+  },
+  {
+    "id": "116985540759658958",
+    "created_at": "2026-07-26T09:21:29.912Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116985539855804799",
+    "url": "https://truthsocial.com/@realDonaldTrump/116985540759658958",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/116/985/540/459/157/407/original/686218a43be6901a.png"
+    ],
+    "replies_count": 28,
+    "reblogs_count": 216,
+    "favourites_count": 732
+  },
+  {
+    "id": "116985539855804799",
+    "created_at": "2026-07-26T09:21:16.117Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116985538488226369",
+    "url": "https://truthsocial.com/@realDonaldTrump/116985539855804799",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/116/985/539/413/597/908/original/0c74c1c1ffa3640d.png"
+    ],
+    "replies_count": 28,
+    "reblogs_count": 203,
+    "favourites_count": 676
+  },
+  {
+    "id": "116985538488226369",
+    "created_at": "2026-07-26T09:20:55.251Z",
+    "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116985537282198490",
+    "url": "https://truthsocial.com/@realDonaldTrump/116985538488226369",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/116/985/538/057/814/461/original/490ac3ded834a420.png"
+    ],
+    "replies_count": 31,
+    "reblogs_count": 218,
+    "favourites_count": 711
+  },
+  {
+    "id": "116985537282198490",
+    "created_at": "2026-07-26T09:20:36.819Z",
+    "content": "",
+    "url": "https://truthsocial.com/@realDonaldTrump/116985537282198490",
+    "media": [
+      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/116/985/536/983/106/186/original/0efec9c0d99b3ff8.jpg"
+    ],
+    "replies_count": 26,
+    "reblogs_count": 176,
+    "favourites_count": 609
+  },
+  {
     "id": "116984230117651831",
     "created_at": "2026-07-26T03:48:11.004Z",
     "content": "The all Republican Senators! Terminate the Filibuster, which the Dumocrats will do as soon as they get the chance, and PASS THE SAVE AMERICA ACT, and everything else, including the Budget, and upcoming Debt Ceiling. Do it now, before it is too late!!! President DJT",
     "url": "https://truthsocial.com/@realDonaldTrump/116984230117651831",
     "media": [],
-    "replies_count": 896,
-    "reblogs_count": 2164,
-    "favourites_count": 6559
+    "replies_count": 1043,
+    "reblogs_count": 2745,
+    "favourites_count": 8539
   },
   {
     "id": "116984203022960894",
@@ -15,9 +135,9 @@
     "content": "Congratulations to Alexander Kolodin for his great win in Arizona\u00e2\u0080\u0099s race for Secretary of State. He is tough, smart, and a proven winner. He was with me in my big Presidential Win. We\u00e2\u0080\u0099ll do a fantastic Trump Rally to make sure he WINS. Alexander Kolodin has my complete and total Endorsement. He will never let you down! President Donald J.  Trump",
     "url": "https://truthsocial.com/@realDonaldTrump/116984203022960894",
     "media": [],
-    "replies_count": 211,
-    "reblogs_count": 972,
-    "favourites_count": 4172
+    "replies_count": 239,
+    "reblogs_count": 1208,
+    "favourites_count": 5356
   },
   {
     "id": "116981273030570747",
@@ -27,9 +147,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/116/981/272/796/281/340/original/fa3f14c3ec1282cc.jpg"
     ],
-    "replies_count": 3462,
-    "reblogs_count": 5351,
-    "favourites_count": 20911
+    "replies_count": 3511,
+    "reblogs_count": 5461,
+    "favourites_count": 21342
   },
   {
     "id": "116978507306393239",
@@ -39,9 +159,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/116/977/720/784/264/265/original/2750813e09f99c42.jpg"
     ],
-    "replies_count": 1276,
-    "reblogs_count": 2747,
-    "favourites_count": 9958
+    "replies_count": 1284,
+    "reblogs_count": 2765,
+    "favourites_count": 10055
   },
   {
     "id": "116978462876373589",
@@ -49,9 +169,9 @@
     "content": "Alaska removes thousands from state\u00e2\u0080\u0099s active voter list, erroneously flagging some citizens: https://alaskabeacon.com/2026/07/23/alaska-removes-thousands-from-states-active-voter-list-erroneously-flagging-some-citizens/",
     "url": "https://truthsocial.com/@realDonaldTrump/116978462876373589",
     "media": [],
-    "replies_count": 1253,
-    "reblogs_count": 4531,
-    "favourites_count": 17425
+    "replies_count": 1261,
+    "reblogs_count": 4572,
+    "favourites_count": 17591
   },
   {
     "id": "116976838638860847",
@@ -59,9 +179,9 @@
     "content": "Republican Kurt Alme is a terrific candidate for the U.S. Senate in the Wonderful State of Montana, which I love and WON BIG in 2016, 2020, and 2024. He loves the U.S.A., and is a truly Great American Patriot! Kurt is running against a Radical Left Democrat named Alani Bankhead, who loves High Taxes, Open Borders, No Consequences for Violent Criminals, Men in Women\u00e2\u0080\u0099s Sports, and Transgender for Everybody, among other CRAZY ideas!\u00c2\u00a0Kurt is one of the Strongest, and most Conservative, Republican Candidates in the Country, whereas his Opponent, Alani Bankhead, is a Radical Left Extremist, who will put our Country, and Safety, LAST. Kurt, on the other hand, will ALWAYS put Montana, and America, FIRST. Alani Bankhead is a Radical Left LUNATIC Dumocrat, whose values are not those of the people of Montana, or the United States of America \u00e2\u0080\u0094 But the good news is that Kurt Alme is the PATRIOT that everyone is looking for, and has my Complete and Total Endorsement \u00e2\u0080\u0094 KURT WILL NEVER LET YOU DOWN!",
     "url": "https://truthsocial.com/@realDonaldTrump/116976838638860847",
     "media": [],
-    "replies_count": 1306,
-    "reblogs_count": 3598,
-    "favourites_count": 16174
+    "replies_count": 1308,
+    "reblogs_count": 3617,
+    "favourites_count": 16284
   },
   {
     "id": "116976146307878077",
@@ -69,9 +189,9 @@
     "content": "Thank you to all the Senators who opposed yet another Dumocrat-led attempt to undermine our National Security.\u00c2\u00a0Congratulations to our GREAT Speaker, Mike Johnson, and the House Republicans for their MAJOR success in taking the first step towards passing the Budget Bill. Thank you to our terrific Chairman, Jodey Arrington, Chip Roy, Michelle Fishbach, Virginia Foxx, Jason Smith, Mike Rogers, GT Thompson, Bryan Steil, our incredible Whip, Tom Emmer, Majority Leader, Steve Scalise, and all those who came together to take this important step.\u00c2\u00a0 \u00c2\u00a0This will be one of the most consequential Bills in America\u00e2\u0080\u0099s History. Strengthening our powerful Military, providing aid for our Farmers and, most importantly, as much of THE SAVE AMERICA ACT as possible. Our Voters will be extremely happy \u00e2\u0080\u0094 And even impressed! I am asking that the Senate adopt a Budget Resolution, which can pass with a simple Majority, before leaving for the August recess. We are ready to work side-by-side with the Senate to get this done for the American People! President DONALD J. TRUMP",
     "url": "https://truthsocial.com/@realDonaldTrump/116976146307878077",
     "media": [],
-    "replies_count": 1896,
-    "reblogs_count": 5590,
-    "favourites_count": 22780
+    "replies_count": 1904,
+    "reblogs_count": 5616,
+    "favourites_count": 22907
   },
   {
     "id": "116976043318889040",
@@ -79,9 +199,9 @@
     "content": "The European Union is at it again and, as usual, taking direct aim at GREAT American Companies! After having fined Apple, for no reason at all, 15 Billion Dollars, Meta, 3 Billion Dollars, Amazon 2.5 Billion Dollars, and many others, we have just been informed that Google, a truly advanced and amazing group, has been fined yet another 1 Billion Dollars, without explanation. This brings the Google total to over 18 Billion Dollars! This illegal and highly discriminatory practice started at these high levels during the first year of the Sleepy Joe Biden Administration, but it\u00e2\u0080\u0099s not going to continue during the Trump Administration. The United States of America is not a \u00e2\u0080\u009cPIGGYBANK\u00e2\u0080\u009d for Europe, nor will we allow it to be! Please let this TRUTH serve to represent that we will immediately initiate a 301 Investigation into the practice of \u00e2\u0080\u009cROBBING\u00e2\u0080\u009d American Companies and, in turn, the American Taxpayer. The European Union will pay a very big price for this illegal and highly unethical conduct, which I have consistently warned them about. The penalties will be entirely reversed and, we anticipate, a substantial TARIFF to be placed on them at the earliest possible moment. Stay tuned! President DONALD J. TRUMP",
     "url": "https://truthsocial.com/@realDonaldTrump/116976043318889040",
     "media": [],
-    "replies_count": 2296,
-    "reblogs_count": 6358,
-    "favourites_count": 22341
+    "replies_count": 2306,
+    "reblogs_count": 6391,
+    "favourites_count": 22477
   },
   {
     "id": "116976024406805765",
@@ -89,9 +209,9 @@
     "content": "Thank you Prime Minister Radev!Bulgaria Backs Trump, Approves US Air Base Support Despite Iran Threats: https://www.newsmax.com/newsfront/bulgaria-united-states-iran/2026/07/23/id/1263846/",
     "url": "https://truthsocial.com/@realDonaldTrump/116976024406805765",
     "media": [],
-    "replies_count": 515,
-    "reblogs_count": 3880,
-    "favourites_count": 16060
+    "replies_count": 517,
+    "reblogs_count": 3896,
+    "favourites_count": 16154
   },
   {
     "id": "116975941256357814",
@@ -99,9 +219,9 @@
     "content": "Canada disinvited the United States of America to the opening of the Gordie Howe Bridge, which is fine, considering they are paying substantial TARIFFS to the United States, but the original Deal on the Bridge, which was terribly negotiated by a previous Administration, no longer stands. We changed the terms of the Deal so that the United States of America now gets 50% of the Profit. Thank you for your attention to this matter! President DONALD J. TRUMP",
     "url": "https://truthsocial.com/@realDonaldTrump/116975941256357814",
     "media": [],
-    "replies_count": 1640,
-    "reblogs_count": 5350,
-    "favourites_count": 22078
+    "replies_count": 1643,
+    "reblogs_count": 5367,
+    "favourites_count": 22192
   },
   {
     "id": "116975606621428184",
@@ -109,9 +229,9 @@
     "content": "President Xi, at our recent meeting in Beijing, China, told me that he would not, under any circumstances, give or sell Weapons to the Islamic Republic of Iran \u00e2\u0080\u0094 And that statement included Chinese Companies. Considering our relationship, I take him at his word and, besides, l am doing him very big favors, also. Likewise, President Putin, despite the horrible War going on in Ukraine (The relationship remains, as it does with President Zelenskyy), told me that he would not sell Weapons to Iran. He understands that I do not sell Weapons to Ukraine, but to NATO Countries. They pay full price, and how those Weapons are distributed, I have no idea. Therefore, two major Countries that people speak of often in terms of Iran are, in my opinion, not participating. If they did, it would be very bad for them \u00e2\u0080\u0094 Certainly not in their best interests. Thank you for your attention to this matter! President DONALD J. TRUMP",
     "url": "https://truthsocial.com/@realDonaldTrump/116975606621428184",
     "media": [],
-    "replies_count": 1850,
-    "reblogs_count": 4818,
-    "favourites_count": 19172
+    "replies_count": 1860,
+    "reblogs_count": 4833,
+    "favourites_count": 19245
   },
   {
     "id": "116972989857630623",
@@ -121,9 +241,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/116/973/000/267/351/979/original/9f77cc7143e78993.jpg"
     ],
-    "replies_count": 1294,
-    "reblogs_count": 4088,
-    "favourites_count": 21475
+    "replies_count": 1296,
+    "reblogs_count": 4095,
+    "favourites_count": 21522
   },
   {
     "id": "116972988583422969",
@@ -133,9 +253,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/116/972/988/511/325/392/original/dfce528141aa735c.jpg"
     ],
-    "replies_count": 398,
-    "reblogs_count": 2896,
-    "favourites_count": 14643
+    "replies_count": 400,
+    "reblogs_count": 2901,
+    "favourites_count": 14669
   },
   {
     "id": "116972986793236903",
@@ -146,8 +266,8 @@
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/116/972/985/039/386/548/original/51ba9ff8990c480c.mp4"
     ],
     "replies_count": 226,
-    "reblogs_count": 2043,
-    "favourites_count": 11315
+    "reblogs_count": 2046,
+    "favourites_count": 11331
   },
   {
     "id": "116972979528582177",
@@ -157,9 +277,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/116/972/979/430/740/705/original/53ebb980f24befbd.jpg"
     ],
-    "replies_count": 624,
-    "reblogs_count": 2799,
-    "favourites_count": 12300
+    "replies_count": 627,
+    "reblogs_count": 2801,
+    "favourites_count": 12321
   },
   {
     "id": "116972976347462953",
@@ -169,9 +289,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/116/972/975/960/594/610/original/63c0028fd488a023.mp4"
     ],
-    "replies_count": 360,
-    "reblogs_count": 1993,
-    "favourites_count": 9651
+    "replies_count": 364,
+    "reblogs_count": 1996,
+    "favourites_count": 9670
   },
   {
     "id": "116972245395063508",
@@ -181,9 +301,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/116/972/244/483/729/662/original/61e87756fd395faa.jpg"
     ],
-    "replies_count": 1111,
-    "reblogs_count": 3527,
-    "favourites_count": 13175
+    "replies_count": 1112,
+    "reblogs_count": 3529,
+    "favourites_count": 13195
   },
   {
     "id": "116972241542468155",
@@ -193,9 +313,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/116/972/239/147/785/497/original/7242e16d024a3ee7.mp4"
     ],
-    "replies_count": 447,
-    "reblogs_count": 2094,
-    "favourites_count": 9405
+    "replies_count": 448,
+    "reblogs_count": 2095,
+    "favourites_count": 9418
   },
   {
     "id": "116971865115694289",
@@ -205,7 +325,7 @@
     "media": [],
     "replies_count": 647,
     "reblogs_count": 3447,
-    "favourites_count": 14987
+    "favourites_count": 15005
   },
   {
     "id": "116971864522910409",
@@ -213,9 +333,9 @@
     "content": "It is my Great Honor to endorse MAGA Patriot, Tim Fleming, who is running to be the next Secretary of State of the Incredible State of Georgia!\u00c2\u00a0A Highly Respected State Representative and Civic Leader, prior to running for Secretary of State, Tim has a strong record of being an America First Fighter for Election Integrity! A true MAGA Warrior, Tim understands that, ALL VOTERS MUST SHOW PHOTO VOTER I.D. (IDENTIFICATION!) AND, ALL VOTERS MUST SHOW PROOF OF CITIZENSHIP IN ORDER TO VOTE! The Dumocrats love to CHEAT, and Tim will work tirelessly to Safeguard Georgia\u00e2\u0080\u0099s Elections. Tim will also focus on helping us continue to Grow the Economy, Promote our Amazing Farmers and Ranchers, Stop Migrant Crime, Keep Men out of Women\u00e2\u0080\u0099s Sports, and Defend our always under siege Second Amendment.\u00c2\u00a0Tim Fleming has my Complete and Total Endorsement to be the next Secretary of State of Georgia \u00e2\u0080\u0093 HE WILL DO A FANTASTIC JOB, AND NEVER LET YOU DOWN!",
     "url": "https://truthsocial.com/@realDonaldTrump/116971864522910409",
     "media": [],
-    "replies_count": 335,
+    "replies_count": 336,
     "reblogs_count": 2980,
-    "favourites_count": 13374
+    "favourites_count": 13391
   },
   {
     "id": "116971863913562523",
@@ -223,9 +343,9 @@
     "content": "Greg Dolezal is a MAGA Warrior running for Lieutenant Governor to represent the Fantastic People of Georgia. He is strongly supported by my good friend, and the Peach State\u00e2\u0080\u0099s next Governor, Rick Jackson!\u00c2\u00a0A Highly Respected State Senator, Greg has dedicated his life to serving his Community. As your next Lieutenant Governor, Greg will work hard to Grow our Economy, Cut Taxes and Regulations, Support our Amazing Farmers and Ranchers, Promote MADE IN THE U.S.A., Unleash American Energy DOMINANCE, Keep our Border SECURE, Stop Migrant Crime, Advance Election Integrity, Ensure LAW AND ORDER, Strengthen our Military, Veterans, and Law Enforcement, and Defend our always under siege Second Amendment. He will work brilliantly with Rick Jackson, and do great things, never seen before in Georgia!\u00c2\u00a0Greg Dolezal has my Complete and Total Endorsement to be the next Lieutenant Governor of Georgia \u00e2\u0080\u0094 HE WILL NEVER LET YOU DOWN!",
     "url": "https://truthsocial.com/@realDonaldTrump/116971863913562523",
     "media": [],
-    "replies_count": 184,
+    "replies_count": 185,
     "reblogs_count": 2671,
-    "favourites_count": 11865
+    "favourites_count": 11877
   },
   {
     "id": "116971862681784017",
@@ -235,7 +355,7 @@
     "media": [],
     "replies_count": 171,
     "reblogs_count": 2528,
-    "favourites_count": 11387
+    "favourites_count": 11397
   },
   {
     "id": "116971555718513784",
@@ -243,9 +363,9 @@
     "content": "Please let this statement serve to represent, until further notice, that from this point forth, any and all damages done to Ships, Cargo, or anything related thereto, will be paid for by Iranian Money that the United States has in its possession, and controls. These damages may be very substantial but, nevertheless, this is the fair and equitable thing to do. Thank you for your attention to this matter! President DONALD J. TRUMP",
     "url": "https://truthsocial.com/@realDonaldTrump/116971555718513784",
     "media": [],
-    "replies_count": 1936,
-    "reblogs_count": 5864,
-    "favourites_count": 22147
+    "replies_count": 1937,
+    "reblogs_count": 5868,
+    "favourites_count": 22173
   },
   {
     "id": "116969243226176328",
@@ -253,9 +373,9 @@
     "content": "A year ago the United States of America attacked, very powerfully, the Houthis, for their interference with commerce and trade, by shooting at ships. Since that time, and during our conflict with Iran, they have acted very responsibly. Unfortunately, now they are starting up again, shooting at two Saudi Arabian ships last night. Please let this TRUTH serve to represent that if they do this again, the U.S. will hold Iran responsible, in that the Houthis are a Surrogate and/or Proxy of Iran, and major military punishment will be inflicted upon Iran and, of course, the Houthis, themselves, who I am very disappointed with in that they have, until now, acted very professionally and smart. Thank you for your attention to this matter! President DONALD J. TRUMP",
     "url": "https://truthsocial.com/@realDonaldTrump/116969243226176328",
     "media": [],
-    "replies_count": 4803,
-    "reblogs_count": 8855,
-    "favourites_count": 37621
+    "replies_count": 4805,
+    "reblogs_count": 8858,
+    "favourites_count": 37651
   },
   {
     "id": "116969149016233329",
@@ -264,8 +384,8 @@
     "url": "https://truthsocial.com/@realDonaldTrump/116969149016233329",
     "media": [],
     "replies_count": 1251,
-    "reblogs_count": 4885,
-    "favourites_count": 19861
+    "reblogs_count": 4884,
+    "favourites_count": 19878
   },
   {
     "id": "116968591311441725",
@@ -273,9 +393,9 @@
     "content": "Justice at last??? House panel accuses Jack Smith of lying to Congress, urges DOJ to prosecute: https://justthenews.com/government/congress/jim-jordan-sends-jack-smith-criminal-referral-justice-department",
     "url": "https://truthsocial.com/@realDonaldTrump/116968591311441725",
     "media": [],
-    "replies_count": 2153,
-    "reblogs_count": 5785,
-    "favourites_count": 21222
+    "replies_count": 2154,
+    "reblogs_count": 5786,
+    "favourites_count": 21239
   },
   {
     "id": "116967081629708353",
@@ -287,7 +407,7 @@
     ],
     "replies_count": 1739,
     "reblogs_count": 5882,
-    "favourites_count": 22583
+    "favourites_count": 22595
   },
   {
     "id": "116966741803054909",
@@ -297,7 +417,7 @@
     "media": [],
     "replies_count": 584,
     "reblogs_count": 3338,
-    "favourites_count": 13655
+    "favourites_count": 13665
   },
   {
     "id": "116964661378844246",
@@ -307,9 +427,9 @@
     "media": [
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/116/964/660/972/208/111/original/8fe9bfd9086dcda9.jpg"
     ],
-    "replies_count": 3082,
+    "replies_count": 3084,
     "reblogs_count": 5785,
-    "favourites_count": 23035
+    "favourites_count": 23043
   },
   {
     "id": "116964025218558981",
@@ -321,7 +441,7 @@
     ],
     "replies_count": 1467,
     "reblogs_count": 5377,
-    "favourites_count": 20742
+    "favourites_count": 20748
   },
   {
     "id": "116963738416841583",
@@ -329,9 +449,9 @@
     "content": "From this point forward, any time the Islamic Republic of Iran shoots at a ship in the Strait of Hormuz, whether it be by Missile, Rocket, Drone, or any other device or weapon, the United States will bomb and destroy ONE BRIDGE OR POWER PLANT, including those located next to, or in, the Capital City of Tehran. Thank you for your attention to this matter! President DONALD J. TRUMP",
     "url": "https://truthsocial.com/@realDonaldTrump/116963738416841583",
     "media": [],
-    "replies_count": 6829,
-    "reblogs_count": 11905,
-    "favourites_count": 53096
+    "replies_count": 6831,
+    "reblogs_count": 11908,
+    "favourites_count": 53109
   },
   {
     "id": "116963651250041725",
@@ -341,7 +461,7 @@
     "media": [],
     "replies_count": 1534,
     "reblogs_count": 4923,
-    "favourites_count": 26916
+    "favourites_count": 26923
   },
   {
     "id": "116963640178728533",
@@ -349,9 +469,9 @@
     "content": "MAGA CANDIDATES WON EVERYTHING LAST NIGHT IN ARIZONA, A COMPLETE SWEEP!!! I WON ARIZONA 18 MONTHS AGO. THE DUMOCRATS ARE DUMBFOUNDED. AFTER DECADES, ARIZONA IS BECOMING A REPUBLICAN STATE. CONGRATULATIONS TO ALL! President DONALD J. TRUMP",
     "url": "https://truthsocial.com/@realDonaldTrump/116963640178728533",
     "media": [],
-    "replies_count": 2398,
+    "replies_count": 2399,
     "reblogs_count": 6635,
-    "favourites_count": 30035
+    "favourites_count": 30041
   },
   {
     "id": "116963046966861979",
@@ -359,9 +479,9 @@
     "content": "A Crooked Election System!!! SAVE AMERICA!!!NJ governor forced to admit hundreds of foreigners voted in elections after Dems claimed no problem: https://justthenews.com/politics-policy/elections/state-motor-vehicle-system-registers-6600-non-citizens-vote-new-jersey",
     "url": "https://truthsocial.com/@realDonaldTrump/116963046966861979",
     "media": [],
-    "replies_count": 2547,
+    "replies_count": 2548,
     "reblogs_count": 7141,
-    "favourites_count": 22363
+    "favourites_count": 22370
   },
   {
     "id": "116963046690717842",
@@ -372,8 +492,8 @@
       "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/116/963/046/442/779/494/original/ada5ab218a1891ac.jpg"
     ],
     "replies_count": 762,
-    "reblogs_count": 4762,
-    "favourites_count": 21677
+    "reblogs_count": 4761,
+    "favourites_count": 21681
   },
   {
     "id": "116963046230637248",
@@ -385,7 +505,7 @@
     ],
     "replies_count": 354,
     "reblogs_count": 3370,
-    "favourites_count": 18595
+    "favourites_count": 18600
   },
   {
     "id": "116963045698765090",
@@ -397,7 +517,7 @@
     ],
     "replies_count": 197,
     "reblogs_count": 2871,
-    "favourites_count": 16707
+    "favourites_count": 16710
   },
   {
     "id": "116963045151218184",
@@ -409,7 +529,7 @@
     ],
     "replies_count": 198,
     "reblogs_count": 2788,
-    "favourites_count": 16254
+    "favourites_count": 16257
   },
   {
     "id": "116963044621221470",
@@ -421,7 +541,7 @@
     ],
     "replies_count": 153,
     "reblogs_count": 2654,
-    "favourites_count": 15638
+    "favourites_count": 15641
   },
   {
     "id": "116963044012217151",
@@ -433,7 +553,7 @@
     ],
     "replies_count": 259,
     "reblogs_count": 2956,
-    "favourites_count": 16984
+    "favourites_count": 16989
   },
   {
     "id": "116963043473260676",
@@ -445,7 +565,7 @@
     ],
     "replies_count": 168,
     "reblogs_count": 2740,
-    "favourites_count": 16130
+    "favourites_count": 16133
   },
   {
     "id": "116963042922612328",
@@ -457,7 +577,7 @@
     ],
     "replies_count": 145,
     "reblogs_count": 2608,
-    "favourites_count": 15414
+    "favourites_count": 15417
   },
   {
     "id": "116962993377590525",
@@ -467,7 +587,7 @@
     "media": [],
     "replies_count": 492,
     "reblogs_count": 4125,
-    "favourites_count": 18998
+    "favourites_count": 19002
   },
   {
     "id": "116962948048564200",
@@ -477,7 +597,7 @@
     "media": [],
     "replies_count": 736,
     "reblogs_count": 5236,
-    "favourites_count": 23037
+    "favourites_count": 23044
   },
   {
     "id": "116962896633563415",
@@ -487,7 +607,7 @@
     "media": [],
     "replies_count": 224,
     "reblogs_count": 2798,
-    "favourites_count": 14355
+    "favourites_count": 14358
   },
   {
     "id": "116961577008925127",
@@ -499,7 +619,7 @@
     ],
     "replies_count": 1748,
     "reblogs_count": 3907,
-    "favourites_count": 12290
+    "favourites_count": 12292
   },
   {
     "id": "116961574322416527",
@@ -511,7 +631,7 @@
     ],
     "replies_count": 860,
     "reblogs_count": 4920,
-    "favourites_count": 16897
+    "favourites_count": 16900
   },
   {
     "id": "116961572831779086",
@@ -523,7 +643,7 @@
     ],
     "replies_count": 612,
     "reblogs_count": 4382,
-    "favourites_count": 15816
+    "favourites_count": 15818
   },
   {
     "id": "116961572058857401",
@@ -535,7 +655,7 @@
     ],
     "replies_count": 198,
     "reblogs_count": 2432,
-    "favourites_count": 10433
+    "favourites_count": 10435
   },
   {
     "id": "116961571415704629",
@@ -547,121 +667,7 @@
     ],
     "replies_count": 402,
     "reblogs_count": 3724,
-    "favourites_count": 14717
-  },
-  {
-    "id": "116961570518477700",
-    "created_at": "2026-07-22T03:45:33.027Z",
-    "content": "",
-    "url": "https://truthsocial.com/@realDonaldTrump/116961570518477700",
-    "media": [
-      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/116/961/588/748/568/053/original/8b6ad61868996637.mp4"
-    ],
-    "replies_count": 158,
-    "reblogs_count": 2195,
-    "favourites_count": 9889
-  },
-  {
-    "id": "116961518130020934",
-    "created_at": "2026-07-22T03:32:13.575Z",
-    "content": "35,152 is the new number just released by Homeland Security of non-citizens registered to vote in New Jersey. These are just the ones that got caught. The real numbers will prove to be many times this amount. They are all Dumocrats! Republicans, get smart and straighten out our Crooked Elections! Pass The Save America Act!!!",
-    "url": "https://truthsocial.com/@realDonaldTrump/116961518130020934",
-    "media": [],
-    "replies_count": 1137,
-    "reblogs_count": 6056,
-    "favourites_count": 18433
-  },
-  {
-    "id": "116961484899190159",
-    "created_at": "2026-07-22T03:23:46.581Z",
-    "content": "",
-    "url": "https://truthsocial.com/@realDonaldTrump/116961484899190159",
-    "media": [
-      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/116/961/483/755/875/268/original/280ba700d8085027.mp4"
-    ],
-    "replies_count": 454,
-    "reblogs_count": 2700,
-    "favourites_count": 12652
-  },
-  {
-    "id": "116961482604750674",
-    "created_at": "2026-07-22T03:23:11.571Z",
-    "content": "",
-    "url": "https://truthsocial.com/@realDonaldTrump/116961482604750674",
-    "media": [
-      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/116/961/481/887/085/267/original/8dabe9e45b6ded34.mp4"
-    ],
-    "replies_count": 393,
-    "reblogs_count": 2929,
-    "favourites_count": 11873
-  },
-  {
-    "id": "116961480817837390",
-    "created_at": "2026-07-22T03:22:44.304Z",
-    "content": "",
-    "url": "https://truthsocial.com/@realDonaldTrump/116961480817837390",
-    "media": [
-      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/116/961/477/057/382/282/original/059f63f4c022f227.mp4"
-    ],
-    "replies_count": 203,
-    "reblogs_count": 2233,
-    "favourites_count": 10318
-  },
-  {
-    "id": "116961475884596578",
-    "created_at": "2026-07-22T03:21:29.027Z",
-    "content": "",
-    "url": "https://truthsocial.com/@realDonaldTrump/116961475884596578",
-    "media": [
-      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/116/961/475/192/096/482/original/bec6f68ec123e160.mp4"
-    ],
-    "replies_count": 152,
-    "reblogs_count": 2311,
-    "favourites_count": 10367
-  },
-  {
-    "id": "116961438077640740",
-    "created_at": "2026-07-22T03:11:52.072Z",
-    "content": "https://truthsocial.com/@realDonaldTrump/116946506480346191",
-    "url": "https://truthsocial.com/@realDonaldTrump/116961438077640740",
-    "media": [],
-    "replies_count": 265,
-    "reblogs_count": 2415,
-    "favourites_count": 10370
-  },
-  {
-    "id": "116961389455371069",
-    "created_at": "2026-07-22T02:59:30.153Z",
-    "content": "Mike Lindell would be a GREAT Governor. He loves Minnesota with all of his heart. President DJTKSTP/SurveyUSA poll: Lindell, Tafoya increase their leads; Craig, Ellison margins shrink: https://kstp.com/kstp-news/top-news/kstp-surveyusa-poll-lindell-tafoya-increase-their-election-leads-craig-ellison-margins-shrink/",
-    "url": "https://truthsocial.com/@realDonaldTrump/116961389455371069",
-    "media": [],
-    "replies_count": 536,
-    "reblogs_count": 3462,
-    "favourites_count": 13852
-  },
-  {
-    "id": "116961148061262709",
-    "created_at": "2026-07-22T01:58:06.772Z",
-    "content": "Rigged Elections!!!",
-    "url": "https://truthsocial.com/@realDonaldTrump/116961148061262709",
-    "media": [
-      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/116/961/147/667/767/864/original/eafbbb1a19ffd315.jpg"
-    ],
-    "replies_count": 1128,
-    "reblogs_count": 3961,
-    "favourites_count": 12549
-  },
-  {
-    "id": "116961030891139357",
-    "created_at": "2026-07-22T01:28:18.901Z",
-    "content": "These are the real facts. REPORT THEM!",
-    "url": "https://truthsocial.com/@realDonaldTrump/116961030891139357",
-    "media": [
-      "https://static-assets-1.truthsocial.com/tmtg:prime-ts-assets/media_attachments/files/116/961/030/573/481/655/original/ee2c52c22b762a53.jpg"
-    ],
-    "replies_count": 1073,
-    "reblogs_count": 4834,
-    "favourites_count": 14343
+    "favourites_count": 14719
   },
   {
     "id": "115437112529618205",
