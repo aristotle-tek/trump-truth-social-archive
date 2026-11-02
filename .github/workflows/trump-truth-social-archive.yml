@@ -14,22 +14,28 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7.0.1
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7.1.0
         with:
-          python-version: '3.9'
+          python-version: '3.12'
 
       - name: Install deps
         run: |
           set -e
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Check existing archive
+        run: python check_archive.py
 
       - name: Run scraper
         env:
@@ -38,9 +44,11 @@ jobs:
           set -e
           python scrape.py
 
-      # Commit any changed files (e.g., data/**, truth_archive.*) back to the repo
+      - name: Check updated archive
+        run: python check_archive.py
+
       - name: Commit updated data
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7.2.1
         with:
-          commit_message: "chore: update Truth Social archive (no S3)"
-          # omit file_pattern to commit all changes that the scraper made
+          commit_message: "chore: update cumulative Truth Social archive"
+          file_pattern: "data/truth_archive.json data/truth_archive.csv"

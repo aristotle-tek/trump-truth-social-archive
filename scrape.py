@@ -4,13 +4,17 @@ import os
 import time
 import csv
 import re
+from html import unescape
+from datetime import datetime
+from pathlib import Path
+import tempfile
 
 # Load credentials from environment variables
 SCRAPEOPS_API_KEY = os.getenv("SCRAPE_PROXY_KEY")
 SCRAPEOPS_ENDPOINT = "https://proxy.scrapeops.io/v1/"
 OUTPUT_JSON_FILE = "./data/truth_archive.json"
 OUTPUT_CSV_FILE = "./data/truth_archive.csv"
-ARCHIVE_URL = "https://stilesdata.com/trump-truth-social-archive/truth_archive.json"
+RECOVERY_JSON_FILE = "./data/cumulative/truth_archive.json"
 BASE_URL = "https://truthsocial.com/api/v1/accounts/107780257626128497/statuses"
 
 def scrape(url, headers=None):
@@ -37,16 +41,38 @@ def scrape(url, headers=None):
 
 def load_existing_posts():
     """
-    Loads existing posts from the archive.
+    Continue the cumulative archive; use older sources only for initial setup.
     """
-    try:
-        response = requests.get(ARCHIVE_URL, timeout=30)
-        response.raise_for_status()
-        existing_posts = {post["id"]: post for post in response.json()}
-        return existing_posts
-    except requests.RequestException as e:
-        print(f"⚠️ Warning: Could not fetch existing archive, starting fresh. Error: {e}")
-        return {}
+    for file_path in (OUTPUT_JSON_FILE, RECOVERY_JSON_FILE):
+        if Path(file_path).exists():
+            with open(file_path, encoding="utf-8") as handle:
+                records = json.load(handle)
+            print(f"Loaded local archive: {file_path}")
+            break
+    else:
+        raise FileNotFoundError("No local archive found. Restore data/truth_archive.json or run recovery first.")
+    if not isinstance(records, list) or not records:
+        raise ValueError("Existing archive must be a nonempty JSON array")
+    existing_posts = {}
+    for post in records:
+        if not isinstance(post, dict) or not str(post.get("id", "")).isdigit() or not post.get("created_at"):
+            raise ValueError("Invalid record in existing archive; refusing to overwrite it")
+        post["id"] = str(post["id"])
+        existing_posts[post["id"]] = post
+    return existing_posts
+
+
+def save_archive(data):
+    """Prepare both outputs before replacing the cumulative files."""
+    json_path, csv_path = Path(OUTPUT_JSON_FILE), Path(OUTPUT_CSV_FILE)
+    json_path.parent.mkdir(parents=True, exist_ok=True)
+    csv_path.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory(prefix=".scrape-", dir=json_path.parent) as temp:
+        new_json, new_csv = Path(temp) / "archive.json", Path(temp) / "archive.csv"
+        append_to_json_file(data, new_json)
+        append_to_csv_file(data, new_csv)
+        os.replace(new_json, json_path)
+        os.replace(new_csv, csv_path)
 
 def append_to_json_file(data, file_path):
     """
@@ -70,9 +96,9 @@ def append_to_csv_file(data, file_path):
                 post.get("content", ""),
                 post.get("url"),
                 media_urls,
-                post.get("replies_count", 0),
-                post.get("reblogs_count", 0),
-                post.get("favourites_count", 0)
+                post.get("replies_count", ""),
+                post.get("reblogs_count", ""),
+                post.get("favourites_count", "")
             ])
 
 def clean_html(raw_html):
@@ -80,22 +106,12 @@ def clean_html(raw_html):
     Removes HTML tags from a string.
     This strips unwanted markup like anchor tags.
     """
-    return re.sub('<.*?>', '', raw_html)
-
-def fix_unicode(text):
-    """
-    Ensures that escaped Unicode sequences (e.g., \u2026, \u2014)
-    are converted to their proper characters.
-    """
-    try:
-        return text.encode('utf-8').decode('unicode_escape')
-    except Exception:
-        return text
+    return unescape(re.sub('<.*?>', '', raw_html))
 
 def extract_posts(json_response, existing_posts):
     """
     Extracts relevant data from the JSON response, including engagement metrics.
-    Applies clean_html and fix_unicode to the post content.
+    Clean HTML while preserving the Unicode already decoded from JSON.
     """
     extracted_data = []
     
@@ -109,7 +125,7 @@ def extract_posts(json_response, existing_posts):
         extracted_data.append({
             "id": post_id,  # Needed for pagination
             "created_at": post.get("created_at"),
-            "content": fix_unicode(clean_html(post.get("content", ""))).strip(),
+            "content": clean_html(post.get("content", "")).strip(),
             "url": post.get("url"),
             "media": media_urls,  # Store media in an array
             "replies_count": post.get("replies_count", 0),  # Number of replies
@@ -119,7 +135,7 @@ def extract_posts(json_response, existing_posts):
 
     return extracted_data
 
-def fetch_posts(max_pages=3):
+def fetch_posts(max_pages=50):
     """
     Fetches posts with pagination up to a specified number of pages.
     """
@@ -136,40 +152,49 @@ def fetch_posts(max_pages=3):
     }
 
     existing_posts = load_existing_posts()
-    all_posts = list(existing_posts.values())  # Start with existing data
     page_count = 0
-    new_posts = []
+    new_post_count = 0
+    seen_cursors = set()
 
     while page_count < max_pages:
         url = f"{BASE_URL}?{'&'.join([f'{k}={v}' for k, v in params.items()])}"
         print(f"Fetching: {url}")
 
-        try:
-            response = scrape(url, headers=headers)
-            if not response:  # Ensure response is valid
-                print(f"⚠️ Empty response from {url}. Skipping.")
-                continue
-
-            new_posts = extract_posts(response, existing_posts)
-            if not new_posts:
-                print("✅ No new posts found. Exiting pagination.")
-                break  # No more new posts
-
-            all_posts.extend(new_posts)  # Merge new posts
-            params["max_id"] = new_posts[-1]["id"]  # Get older posts
-            page_count += 1
-
-        except requests.exceptions.RequestException as e:
-            print(f"❌ Error fetching posts: {e}")
+        response = scrape(url, headers=headers)
+        if not isinstance(response, list):
+            raise ValueError("Truth Social response must be a JSON array")
+        if not response:
+            print("✅ Reached the end of the available posts.")
             break
+        for post in response:
+            if not isinstance(post, dict) or not str(post.get("id", "")).isdigit() or not post.get("created_at"):
+                raise ValueError("Invalid post in Truth Social response")
+            post["id"] = str(post["id"])
+        new_posts = extract_posts(response, existing_posts)
+        if not new_posts:
+            print("✅ No new posts found. Exiting pagination.")
+            break
+        for post in new_posts:
+            if post["id"] not in existing_posts:
+                existing_posts[post["id"]] = post
+                new_post_count += 1
+        # Use the full page, including already-known posts, for the next cursor.
+        cursor = str(min(int(post["id"]) for post in response))
+        if cursor in seen_cursors:
+            raise RuntimeError("Pagination did not advance; refusing to publish a partial scrape")
+        seen_cursors.add(cursor)
+        params["max_id"] = cursor
+        page_count += 1
+    else:
+        raise RuntimeError(f"Reached {max_pages} pages before catching up; increase max_pages")
 
     # Sort posts in descending order by "created_at"
-    all_posts.sort(key=lambda post: post["created_at"], reverse=True)
+    all_posts = list(existing_posts.values())
+    all_posts.sort(key=lambda post: datetime.fromisoformat(post["created_at"].replace("Z", "+00:00")), reverse=True)
 
-    append_to_json_file(all_posts, OUTPUT_JSON_FILE)  # Save the updated archive in JSON
-    append_to_csv_file(all_posts, OUTPUT_CSV_FILE)  # Save the archive in CSV format
+    save_archive(all_posts)
 
-    print(f"✅ Scraping complete. {len(new_posts) if new_posts else 0} new posts added.")
+    print(f"✅ Scraping complete. {new_post_count} new posts added; {len(all_posts)} total.")
 
 if __name__ == "__main__":
-    fetch_posts(max_pages=3)
+    fetch_posts()

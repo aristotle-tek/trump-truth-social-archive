@@ -129,6 +129,8 @@ celerybeat.pid
 
 # Environments
 .env
+# Local download bundle; the underlying datasets and reports are tracked.
+data/truth_social_cumulative_recovery_*.zip
 .venv
 env/
 venv/

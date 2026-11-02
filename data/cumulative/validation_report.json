@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-11-02T14:02:31.797787+00:00",
+  "revision": "e8c7e721dc64b66eef87f680d8cb964c687e4aa7",
+  "status": "passed",
+  "json_csv_matching_posts": 42358,
+  "post_provenance_checksums_verified": 42358,
+  "historical_csv_unique_blobs_audited": 3070,
+  "historical_csv_rows_read": 87870816,
+  "historical_csv_unique_ids": 42358,
+  "historical_csv_ids_missing_from_recovery": 0,
+  "recovered_ids_not_in_historical_csvs": 0,
+  "selected_records_checked_against_git": 115,
+  "record_sample_policy": "First and last recovered post in each calendar month.",
+  "zero_post_dates_since_2025_10_26": [
+    "2025-11-13",
+    "2025-12-21",
+    "2025-12-29",
+    "2026-06-07"
+  ],
+  "coverage_note": "A date with no archived posts may reflect no posting or missed collection; it is not proof of either. Nonzero counts also do not establish completeness.",
+  "historical_csv_ids_sha256": "d7aa63b9208a648061370a18c81af76a6b568000a0cac14120a9779a0016705b"
+}

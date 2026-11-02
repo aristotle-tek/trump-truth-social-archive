@@ -1,0 +1,46 @@
+{
+  "checked_at_utc": "2026-11-02T14:33:48.375688+00:00",
+  "archive_validation": {
+    "status": "passed",
+    "unique_posts": 42358,
+    "recovery_snapshot_ids_retained": 42358,
+    "additional_ids_since_recovery": 0,
+    "newest_post_utc": "2026-11-01T03:31:52.659000+00:00",
+    "oldest_post_utc": "2022-02-14T15:54:32.528000+00:00",
+    "archive_sha256": "37f8e82f3e3a28672d11673debc999cba248214b5a2a0b27c389b5be9e9cec0e"
+  },
+  "commit_history_revision": "e8c7e721dc64b66eef87f680d8cb964c687e4aa7",
+  "coverage_start_utc": "2025-10-31",
+  "coverage_end_utc": "2026-11-02",
+  "final_day_is_partial": true,
+  "complete_days_without_posts": [
+    "2025-11-13",
+    "2025-12-21",
+    "2025-12-29",
+    "2026-06-07"
+  ],
+  "complete_days_without_archive_commits": [],
+  "complete_days_without_posts_or_archive_commits": [],
+  "longest_archive_commit_gaps_over_12_hours": [
+    {
+      "start_utc": "2026-08-27T22:37:39+00:00",
+      "end_utc": "2026-08-28T12:16:10+00:00",
+      "hours": 13.64
+    },
+    {
+      "start_utc": "2026-08-27T10:36:44+00:00",
+      "end_utc": "2026-08-27T22:37:39+00:00",
+      "hours": 12.02
+    }
+  ],
+  "last_archive_commit_utc": "2026-11-01T06:53:09+00:00",
+  "hours_since_last_archive_commit_at_check": 31.68,
+  "record_quality": {
+    "records_with_trump_account_url": 37962,
+    "records_with_other_account_url": 4396,
+    "records_without_recognized_account_url": 0,
+    "records_missing_engagement_counts": 4525,
+    "authorship_note": "Other-account URLs may reflect retruths or older source conventions. The flat archived fields do not reliably establish authorship or distinguish every retruth. Counts describe archived IDs, not a verified count of original Trump-authored posts. Unknown engagement counts remain blank in CSV."
+  },
+  "interpretation": "Post counts use post creation dates; commit counts use UTC committer dates on the first-parent history. No commit can mean unchanged output, a failed/skipped run, or no run; it is not proof of missing posts. Days with posts can also be incomplete. Today's partial day is excluded from the no-post/no-commit lists. This is a dated audit, not a live status feed."
+}
