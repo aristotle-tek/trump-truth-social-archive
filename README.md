@@ -4,9 +4,9 @@ This repository contains a Python script that scrapes posts from Donald Trump's 
 
 **This workflow was disabled on Oct. 26, 2025 in the original repo; I have re-started it (without the AWS bucket) in this fork on Oct 31, 2025. I tried to backfill the gap but be aware of possible changes during this period.**
 
-**Data correction — November 2, 2026.** Earlier versions of this fork contained incomplete data because each scrape reloaded the original project's frozen archive instead of retaining this fork's previous results. The error was corrected in the November 2 update, and the archive was reconstructed from the repository's saved history. The main JSON and CSV files now contain 42,358 unique archived records, including 12,889 IDs absent from the previous version. Users who downloaded earlier versions should download the corrected files again.
+**Data correction — November 2, 2026.** Earlier versions of this fork contained incomplete data because each scrape reloaded the original project's frozen archive instead of retaining this fork's previous results. The error was corrected in the November 2 update, and the archive was reconstructed from the repository's saved history. The reconstruction restored 42,358 unique archived records, including 12,889 IDs absent from the previous version. Subsequent collections add to that recovered dataset. Users who downloaded earlier versions should download the corrected files again.
 
-**Recent collection is pending verification.** When this correction was prepared, the newest archived post was dated **November 1, 2026 at 03:31:52 UTC**. The workflow had failed during Python setup, so later posts may still be missing. The updated workflow must complete a catch-up run after publication. Recovery from Git restores committed records; it cannot establish that every Truth Social post was originally captured.
+**Catch-up verified — November 2, 2026.** The [first run of the corrected workflow](https://github.com/aristotle-tek/trump-truth-social-archive/actions/runs/41465263968) completed successfully at **14:48:12 UTC**. It retained all 42,358 recovered IDs and added **64 recent records**, bringing the archive to **42,422 records** at that point. The newest post returned was dated **November 2, 2026 at 06:52:32 UTC**. Pagination continued until it reached previously archived data, completing the catch-up for recent posts available through the API. Tests, archive validation, and the automatic data commit all passed. Historical coverage remains subject to the limitations below; this successful collection does not establish that every Truth Social post was originally captured.
 
 Please cite this repository when using data collected after October 26, 2025.
 
@@ -41,7 +41,7 @@ The [daily coverage table](data/coverage/daily_coverage.csv) compares post creat
 | 2025-12-29 | 0 | 6 |
 | 2026-06-07 | 0 | 6 |
 
-These dates warrant checking against another source. Commits show that archive files changed, not that every post was collected. A day with no commit can also reflect unchanged output. November 2 is a partial day and is excluded from the complete-day lists. The most recent collection interruption remains separate from this historical check.
+These dates warrant checking against another source. Commits show that archive files changed, not that every post was collected. A day with no commit can also reflect unchanged output. November 2 is a partial day and is excluded from the complete-day lists. The recent collection interruption was addressed by the verified catch-up run described above.
 
 Of the recovered records, 37,962 have `@realDonaldTrump` URLs and 4,396 have other accounts' URLs. Other-account records may represent retruths or older source conventions; the flat stored fields do not reliably distinguish them. The archive preserves these records and their sources rather than discarding them. Its total should not be treated as a verified count of original Trump-authored posts. Engagement counts are absent for 4,525 records; CSV leaves these values blank rather than treating them as zero. Historical text and encoding are retained as stored. Newly collected text preserves Unicode characters.
 
@@ -50,7 +50,7 @@ To reproduce the recovery, use a clone with complete commit history and a new ou
 ```bash
 # Only needed for a shallow clone; --filter avoids downloading unrelated files.
 git fetch --unshallow --filter=blob:none --no-tags origin main
-python recover_archive.py --revision origin/main --output data/recovered-again --fetch-missing
+python recover_archive.py --revision e8c7e721dc64b66eef87f680d8cb964c687e4aa7 --output data/recovered-again --fetch-missing
 python verify_recovery.py --output data/recovered-again --fetch-missing
 python -m unittest discover -s tests -v
 ```
@@ -165,9 +165,9 @@ python3.12 check_archive.py
 
 Commit the code, active data, recovery snapshot, and audit reports together, then push to `main`. The local ZIP is a download bundle and is ignored by Git. There is no need to rerun recovery to publish the prepared files.
 
-After pushing, open **Actions → trump-truth-social-archive (no S3) → Run workflow**, choose **main**, and start a new run. Re-running an old failed run would use its old workflow revision. The repository needs the `SCRAPE_PROXY_KEY` Actions secret; it was confirmed present during preparation, but its validity will be tested by the first live request. The workflow already requests `contents: write` for its automatic data commit.
+After pushing a workflow change, open **Actions → trump-truth-social-archive (no S3) → Run workflow**, choose **main**, and start a new run. Re-running an old failed run would use its old workflow revision. The repository needs the `SCRAPE_PROXY_KEY` Actions secret; it was verified by the successful live catch-up on November 2, 2026. The workflow already requests `contents: write` for its automatic data commit.
 
-Confirm that tests, archive checks, scraping, and the automatic commit succeed. Inspect the scraper's new-post count, the newest `created_at` value, and the active dataset size. A successful catch-up should preserve all 42,358 recovered IDs and add any available recent posts. A green Python setup step alone does not establish successful collection. After catch-up is confirmed, update the pending-collection notice above with the successful run's time and newest archived post date. Scheduled runs then continue every four hours. Future proxy or network failures can still occur; they should fail visibly and preserve the previous archive.
+Confirm that tests, archive checks, scraping, and the automatic commit succeed. Inspect the scraper's new-post count, the newest `created_at` value, and the active dataset size. A successful catch-up should preserve all 42,358 recovered IDs and add any available recent posts. A green Python setup step alone does not establish successful collection. Record the run and its timestamps when investigating future interruptions. Scheduled runs continue every four hours. Future proxy or network failures can still occur; they should fail visibly and preserve the previous archive.
 
 To repeat the quick checks and dated commit-coverage audit:
 

@@ -1,15 +1,15 @@
 {
-  "checked_at_utc": "2026-11-02T14:33:48.375688+00:00",
+  "checked_at_utc": "2026-11-02T14:50:53.577641+00:00",
   "archive_validation": {
     "status": "passed",
-    "unique_posts": 42358,
+    "unique_posts": 42422,
     "recovery_snapshot_ids_retained": 42358,
-    "additional_ids_since_recovery": 0,
-    "newest_post_utc": "2026-11-01T03:31:52.659000+00:00",
+    "additional_ids_since_recovery": 64,
+    "newest_post_utc": "2026-11-02T06:52:32.556000+00:00",
     "oldest_post_utc": "2022-02-14T15:54:32.528000+00:00",
-    "archive_sha256": "37f8e82f3e3a28672d11673debc999cba248214b5a2a0b27c389b5be9e9cec0e"
+    "archive_sha256": "08402f9d34d7a947bbaabb71edc1ccf871969f53a2e61d11423fcb9f4edbe575"
   },
-  "commit_history_revision": "e8c7e721dc64b66eef87f680d8cb964c687e4aa7",
+  "commit_history_revision": "91a8748cd0ec7eb424d7f9adf1172e0ab9dd6f20",
   "coverage_start_utc": "2025-10-31",
   "coverage_end_utc": "2026-11-02",
   "final_day_is_partial": true,
@@ -23,6 +23,11 @@
   "complete_days_without_posts_or_archive_commits": [],
   "longest_archive_commit_gaps_over_12_hours": [
     {
+      "start_utc": "2026-11-01T06:53:09+00:00",
+      "end_utc": "2026-11-02T14:46:47+00:00",
+      "hours": 31.89
+    },
+    {
       "start_utc": "2026-08-27T22:37:39+00:00",
       "end_utc": "2026-08-28T12:16:10+00:00",
       "hours": 13.64
@@ -33,10 +38,10 @@
       "hours": 12.02
     }
   ],
-  "last_archive_commit_utc": "2026-11-01T06:53:09+00:00",
-  "hours_since_last_archive_commit_at_check": 31.68,
+  "last_archive_commit_utc": "2026-11-02T14:48:04+00:00",
+  "hours_since_last_archive_commit_at_check": 0.05,
   "record_quality": {
-    "records_with_trump_account_url": 37962,
+    "records_with_trump_account_url": 38026,
     "records_with_other_account_url": 4396,
     "records_without_recognized_account_url": 0,
     "records_missing_engagement_counts": 4525,
