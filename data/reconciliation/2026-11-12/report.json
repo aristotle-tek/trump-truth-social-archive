@@ -1,0 +1,55 @@
+{
+  "checked_at_utc": "2026-11-12T10:29:20.610529+00:00",
+  "before_git_revision": "11626a7346a10319ea841b2da6394930eb13becb",
+  "before_archive_sha256": "09d2ca354ae2bc57841bd8e41341c62bef1c51b3ee632f44c928a04d783cf7db",
+  "cnn_snapshot_sha256": "ffe121d3c946c0a3ae0f9f976cf3c4ef05bae748f38ba9539aee17bc3ad3fdda",
+  "before_count": 42816,
+  "cnn_count": 38017,
+  "shared_ids": 37801,
+  "cnn_only_ids": 216,
+  "ours_only_ids": 5015,
+  "ours_only_trump_url_ids": 619,
+  "ours_only_trump_url_ids_confirmed_by_third_archive": 618,
+  "third_confirmed_own_ids_timestamp_disagreements_over_60_seconds": 115,
+  "ours_only_trump_url_ids_with_same_text_in_cnn": 23,
+  "cnn_only_ids_confirmed_by_third_archive": 211,
+  "third_archive_capped_feeds": [],
+  "zero_dates": {
+    "2025-11-13": {
+      "existing_records": 0,
+      "cnn_records": 0,
+      "third_archive_utc_records_in_fetched_windows": 0,
+      "surrounding_window_items": 26
+    },
+    "2025-12-21": {
+      "existing_records": 0,
+      "cnn_records": 0,
+      "third_archive_utc_records_in_fetched_windows": 0,
+      "surrounding_window_items": 16
+    },
+    "2025-12-29": {
+      "existing_records": 0,
+      "cnn_records": 0,
+      "third_archive_utc_records_in_fetched_windows": 0,
+      "surrounding_window_items": 25
+    },
+    "2026-06-07": {
+      "existing_records": 0,
+      "cnn_records": 0,
+      "third_archive_utc_records_in_fetched_windows": 0,
+      "surrounding_window_items": 43
+    }
+  },
+  "interpretation": "Exact IDs identify archive records. Repeated text at distinct IDs can be reposting. Third-archive matches corroborate stored identity, not authenticity of every statement or complete platform coverage. Missing posts cannot be inferred from empty dates alone. Existing fields and records are never overwritten.",
+  "applied": true,
+  "after_validation": {
+    "status": "passed",
+    "unique_posts": 43032,
+    "recovery_snapshot_ids_retained": 42358,
+    "additional_ids_since_recovery": 674,
+    "newest_post_utc": "2026-11-11T18:38:43.030000+00:00",
+    "oldest_post_utc": "2022-02-14T15:54:32.528000+00:00",
+    "archive_sha256": "dff5fea54337776c42bdb66ca2df7ecb52e8e20e21d4accdcd8c4e2da606b1e6"
+  },
+  "existing_records_preserved_unchanged": 42816
+}

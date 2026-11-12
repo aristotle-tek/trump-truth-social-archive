@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:truth="https://truthsocial.com/ns" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:archive="https://www.trumpstruth.org/rss-extensions">
+    <channel>
+        <atom:link href="https://www.trumpstruth.org/feed?start_date=2025-12-29&amp;end_date=2025-12-29&amp;limit=500" rel="self" type="application/rss+xml" />
+        <title><![CDATA[Trump’s Truth - Latest Posts]]></title>
+        <link>https://www.trumpstruth.org</link>
+        <description><![CDATA[Archive of Donald Trump's TRUTH Social posts]]></description>
+        <language>en-US</language>
+
+            </channel>
+</rss>
