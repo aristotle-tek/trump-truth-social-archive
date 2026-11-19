@@ -1,6 +1,6 @@
 # Trump Truth Social archive scraper
 
-This repository contains a Python script that scrapes posts from Donald Trump's Truth Social account and stores them in JSON and CSV formats. In this fork, a GitHub Actions workflow runs every four hours and commits the cumulative archive to the repository.
+This repository contains a Python script that scrapes posts from Donald Trump's Truth Social account and stores them in JSON and CSV formats. In this fork, GitHub Actions requests an hourly scheduling opportunity and collects when the previous successful collection is at least three hours old. Validated results and a collection heartbeat are committed to the repository.
 
 **Coverage comparison — November 12, 2026.** After reconciliation, this archive contains all **38,017 IDs in the checked CNN snapshot**, plus **5,015 IDs absent from that snapshot**. Of those additional records, 4,396 have other accounts' URLs and are not counted as evidence of additional original Trump-authored posts. The remaining **619 have Trump-account URLs; 618 were also found by exact Truth Social ID in Trump's Truth**. This supports a narrower claim of broader coverage of distinct archived IDs than that dated CNN snapshot. It does not establish a complete record of every original Trump post or 619 additional pieces of unique original content.
 
@@ -122,7 +122,17 @@ The scraper outputs posts in JSON format with the following structure:
 
 ## GitHub Actions automation
 
-The scraper runs every four hours at 47 minutes past, using a GitHub Actions workflow and the `SCRAPE_PROXY_KEY` repository secret. This fork stores its output in Git and does not upload to S3.
+The workflow requests an opportunity every hour at minute 17 UTC, using the `SCRAPE_PROXY_KEY` repository secret. Scheduled runs collect only when the previous published successful collection is at least three hours old; manual runs always collect. With timely hourly triggers this targets roughly three to four hours between collections, while avoiding a paid proxy request on every scheduling opportunity. Actual timing remains best effort. This fork stores its output in Git and does not upload to S3.
+
+### Scheduling reliability update — November 19, 2026
+
+The [schedule audit](data/operations/schedule_audit_2026-11-19.json) found 20 successful runs since the November 12 reconciliation, but intervals as long as 11 hours 36 minutes between their starts. The most recent job queued for only two seconds and completed in about 30 seconds. The previous `47 */4 * * *` cron expression was valid. These observations place the gaps before workflow creation and are consistent with delayed or dropped scheduled triggers. GitHub does not expose enough information here to attribute each missing nominal occurrence to a specific cause. Its [documentation](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule) explicitly allows schedule delays and dropped jobs under load.
+
+The hourly opportunity gives a missed trigger another opportunity sooner. A three-hour eligibility threshold leaves room for hourly jitter around the four-hour collection goal. Runs are serialized without cancelling active work, and checkout explicitly reads the latest `main` so delayed runs retain intervening archive updates. Transient network errors, rate limits, and server errors are retried up to three attempts per request, with five- and fifteen-second waits; authentication and other non-transient client errors fail immediately. Failed scrapes preserve the previous archive.
+
+After a live scrape and archive validation succeed, the workflow publishes [data/collection_status.json](data/collection_status.json), including the collection time, source run URL, record count, newest post date, and archive hash. This heartbeat changes even if there are no new posts. It measures successful collection, unlike a post's creation date or a workflow that merely skipped because collection was not yet due. The heartbeat is committed together with the active archive; a failed scrape, validation, or publish cannot advance the heartbeat on GitHub. A missing or malformed heartbeat causes collection to run. After failure, the next hourly opportunity remains eligible to retry.
+
+GitHub's scheduler still cannot guarantee a maximum interval. A strict four-hour service requirement would require a separately hosted scheduler to invoke the existing manual-dispatch endpoint and monitor this heartbeat. No external scheduler or uptime guarantee is claimed by this update. More frequent successful collections may use more proxy requests than the previous nominal six collections per day; the due guard avoids collecting every hour under normal conditions.
 
 *Note: I'm considering strategies now for periodically rehydrating the archive with updated engeagement analytics (re-posts, replies, etc.) so that we capture changes over time for popular posts.*
 
@@ -175,7 +185,7 @@ Commit the code, active data, recovery snapshot, and audit reports together, the
 
 After pushing a workflow change, open **Actions → trump-truth-social-archive (no S3) → Run workflow**, choose **main**, and start a new run. Re-running an old failed run would use its old workflow revision. The repository needs the `SCRAPE_PROXY_KEY` Actions secret; it was verified by the successful live catch-up on November 2, 2026. The workflow already requests `contents: write` for its automatic data commit.
 
-Confirm that tests, archive checks, scraping, and the automatic commit succeed. Inspect the scraper's new-post count, the newest `created_at` value, and the active dataset size. A successful catch-up should preserve all 42,358 recovered IDs and add any available recent posts. A green Python setup step alone does not establish successful collection. Record the run and its timestamps when investigating future interruptions. Scheduled runs continue every four hours. Future proxy or network failures can still occur; they should fail visibly and preserve the previous archive.
+Confirm that tests, archive checks, scraping, the heartbeat, and the automatic commit succeed. Inspect the scraper's new-post count, the newest `created_at` value, and the active dataset size. A successful catch-up should preserve all 42,358 recovered IDs and add any available recent posts. A green run that skipped because collection was not due is not a new collection; inspect the heartbeat's time and run URL. Record the run and its timestamps when investigating future interruptions. Future proxy or network failures can still occur; they should fail visibly and preserve the previous archive.
 
 To repeat the quick checks and dated commit-coverage audit:
 

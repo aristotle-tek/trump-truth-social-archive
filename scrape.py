@@ -34,10 +34,21 @@ def scrape(url, headers=None):
         'bypass': 'cloudflare_level_1'
     }
 
-    response = session.get(SCRAPEOPS_ENDPOINT, params=proxy_params, timeout=120)
-    response.raise_for_status()
-
-    return response.json()
+    try:
+        for attempt in range(3):
+            try:
+                response = session.get(SCRAPEOPS_ENDPOINT, params=proxy_params, timeout=120)
+                response.raise_for_status()
+                return response.json()
+            except requests.RequestException as exc:
+                status = getattr(exc.response, 'status_code', None)
+                if attempt == 2 or (status is not None and status < 500 and status != 429):
+                    raise
+                delay = (5, 15)[attempt]
+                print(f'Transient proxy failure; retrying in {delay} seconds.')
+                time.sleep(delay)
+    finally:
+        session.close()
 
 def load_existing_posts():
     """

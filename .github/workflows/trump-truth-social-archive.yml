@@ -3,14 +3,14 @@ name: trump-truth-social-archive (no S3)
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 */4 * * *'  # every 4 hours at :47
+    - cron: '17 * * * *'  # Hourly opportunity; collect when heartbeat is >=3 hours old.
 
 permissions:
   contents: write  # needed so the workflow can push commits
 
 concurrency:
   group: trump-truth-archive
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -19,25 +19,35 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v7.0.1
+        with:
+          ref: main  # Queued runs must start from the latest cumulative archive.
 
       - name: Setup Python
         uses: actions/setup-python@v7.1.0
         with:
           python-version: '3.12'
 
+      - name: Decide whether collection is due
+        id: due
+        run: python collection_health.py due
+
       - name: Install deps
+        if: steps.due.outputs.collect == 'true'
         run: |
           set -e
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
       - name: Run tests
+        if: steps.due.outputs.collect == 'true'
         run: python -m unittest discover -s tests -v
 
       - name: Check existing archive
+        if: steps.due.outputs.collect == 'true'
         run: python check_archive.py
 
       - name: Run scraper
+        if: steps.due.outputs.collect == 'true'
         env:
           SCRAPE_PROXY_KEY: ${{ secrets.SCRAPE_PROXY_KEY }}
         run: |
@@ -45,10 +55,16 @@ jobs:
           python scrape.py
 
       - name: Check updated archive
+        if: steps.due.outputs.collect == 'true'
         run: python check_archive.py
 
+      - name: Record successful collection heartbeat
+        if: steps.due.outputs.collect == 'true'
+        run: python collection_health.py record-success
+
       - name: Commit updated data
+        if: steps.due.outputs.collect == 'true'
         uses: stefanzweifel/git-auto-commit-action@v7.2.1
         with:
           commit_message: "chore: update cumulative Truth Social archive"
-          file_pattern: "data/truth_archive.json data/truth_archive.csv"
+          file_pattern: "data/truth_archive.json data/truth_archive.csv data/collection_status.json"
