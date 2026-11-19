@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "last_successful_collection_at_utc": "2026-11-19T11:12:21.366262+00:00",
+  "workflow_run_url": "https://github.com/aristotle-tek/trump-truth-social-archive/actions/runs/44512635066",
+  "archive_validation": {
+    "status": "passed",
+    "unique_posts": 43094,
+    "recovery_snapshot_ids_retained": 42358,
+    "additional_ids_since_recovery": 736,
+    "newest_post_utc": "2026-11-18T07:44:12.909000+00:00",
+    "oldest_post_utc": "2022-02-14T15:54:32.528000+00:00",
+    "archive_sha256": "4f2a79bbdd5557a9c24e7066ed2ba1a0908df60986ce60f6140dba60606ed987"
+  },
+  "meaning": "A live fetch completed and the archive passed validation. The heartbeat is published with the archive; post creation time is not collection time."
+}
