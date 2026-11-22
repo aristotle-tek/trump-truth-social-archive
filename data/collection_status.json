@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_successful_collection_at_utc": "2026-11-22T02:13:06.284453+00:00",
-  "workflow_run_url": "https://github.com/aristotle-tek/trump-truth-social-archive/actions/runs/44975004071",
+  "last_successful_collection_at_utc": "2026-11-22T09:45:47.219550+00:00",
+  "workflow_run_url": "https://github.com/aristotle-tek/trump-truth-social-archive/actions/runs/45009074562",
   "archive_validation": {
     "status": "passed",
     "unique_posts": 43163,
